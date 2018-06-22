@@ -2,17 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [P1]">
   <parameter name="Suite-Name" value="V2 Refresh_QA_Build_1.8--VWR_TestCases_P1"/>
-  <test name="VWR_01_Verify_Apply_Leave_Functionality(failed)">
-    <classes>
-      <class name="in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="verify_Apply_Leave_Functionality" invocation-numbers="0"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality -->
-    </classes>
-  </test> <!-- VWR_01_Verify_Apply_Leave_Functionality(failed) -->
   <test name="VWR_02_Verify_Apply_Maternity_Leave_Functionality(failed)">
     <classes>
       <class name="in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality">
@@ -68,6 +57,17 @@
       </class> <!-- in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information -->
     </classes>
   </test> <!-- VWR_06_Verify_Employees_Personal_Information(failed) -->
+  <test name="VWR_07_Verify_Employees_Professional_Information(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_07_Verify_Employees_Professional_Information">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verify_Employees_Professional_Information" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_07_Verify_Employees_Professional_Information -->
+    </classes>
+  </test> <!-- VWR_07_Verify_Employees_Professional_Information(failed) -->
   <test name="VWR_08_Verify_Dashboard_Functionality(failed)">
     <classes>
       <class name="in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality">

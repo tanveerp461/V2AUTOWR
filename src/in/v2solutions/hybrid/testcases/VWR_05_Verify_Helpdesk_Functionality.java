@@ -19,7 +19,7 @@ import atu.testrecorder.exceptions.ATUTestRecorderException;
 
  String TCName = "VWR_05_Verify_Helpdesk_Functionality";
 
- String lastTestCaseName = "VWR_07_Verify_Employees_Professional_Information";
+ String lastTestCaseName = "VWR_01_Verify_Apply_Leave_Functionality";
 
  int runModecounter = Keywords.xls.getCellRowNum("Test Data","DDTCIDWithRunMode",TCName)+2;
 
