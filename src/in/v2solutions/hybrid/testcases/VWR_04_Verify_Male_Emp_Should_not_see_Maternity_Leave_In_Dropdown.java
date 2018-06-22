@@ -19,7 +19,7 @@ import atu.testrecorder.exceptions.ATUTestRecorderException;
 
  String TCName = "VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown";
 
- String lastTestCaseName = "VWR_07_Verify_Employees_Professional_Information";
+ String lastTestCaseName = "VWR_01_Verify_Apply_Leave_Functionality";
 
  int runModecounter = Keywords.xls.getCellRowNum("Test Data","DDTCIDWithRunMode",TCName)+2;
 
