@@ -1,0 +1,19 @@
+Created Database: dashboard and ran the following commands in 
+Link:http://www.thegeekstuff.com/2010/08/allow-mysql-client-connection/
+
+$ mysql -u root -p
+Enter password:
+
+mysql> use mysql
+
+mysql> GRANT ALL ON *.* to root@'192.168.1.4' IDENTIFIED BY 'your-root-password'; 
+
+mysql> FLUSH PRIVILEGES;
+
+GRANT FILE ON *.* TO 'root'@'192.168.8.67';
+
+GRANT FILE ON *.* TO 'root'@'192.168.30.112';
+
+GRANT FILE ON *.* TO 'root'@'192.168.30.115';
+
+mysql> GRANT ALL ON *.* to root@'192.168.30.115' IDENTIFIED BY 'mail_123'; 

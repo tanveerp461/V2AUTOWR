@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [P1]">
+  <parameter name="Suite-Name" value="LT_1.1.176--EYP_Regression_P1"/>
+  <test name="LT_139_Verify_OffersViaSPS_WithCreditEditAndSecondMortgageAsNo(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.LT_139_Verify_OffersViaSPS_WithCreditEditAndSecondMortgageAsNo">
+        <methods>
+          <include name="verify_OffersViaSPS_WithCreditEditAndSecondMortgageAsNo" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.LT_139_Verify_OffersViaSPS_WithCreditEditAndSecondMortgageAsNo -->
+    </classes>
+  </test> <!-- LT_139_Verify_OffersViaSPS_WithCreditEditAndSecondMortgageAsNo(failed) -->
+</suite> <!-- Failed suite [P1] -->

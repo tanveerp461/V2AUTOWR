@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="sysfiles/jars/selenium-server-standalone-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/ATUTestRecorder_2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/browsermob-dist-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/dom4j-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/gson-2.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/harlib-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/harlib-jackson-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/json-simple-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/jsoup-1.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/log4j-1.2.14.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/mongo-java-driver-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/mysql-connector-java-5.1.32-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/poi-3.8-beta3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/poi-ooxml-3.8-beta3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/poi-ooxml-schemas-3.8-beta4.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/saxon-8.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/SaxonLiaison.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/testng-6.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/validation-api-1.0.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="sysfiles/jars/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

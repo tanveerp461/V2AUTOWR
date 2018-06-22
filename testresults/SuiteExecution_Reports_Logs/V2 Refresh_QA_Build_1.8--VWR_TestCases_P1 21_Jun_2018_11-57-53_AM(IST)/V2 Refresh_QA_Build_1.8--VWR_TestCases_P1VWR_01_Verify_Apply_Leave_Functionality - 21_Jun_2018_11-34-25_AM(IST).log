@@ -1,0 +1,897 @@
+21/06/2018 11:34:25 AutomationLog INFO=> Initializing keywords
+21/06/2018 11:34:25 AutomationLog : =========================================================
+21/06/2018 11:34:25 AutomationLog : Executing---VWR_01_Verify_Apply_Leave_Functionality Test Case
+21/06/2018 11:34:25 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:34:25 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:34:29 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:34:50 AutomationLog : PASS
+21/06/2018 11:34:50 AutomationLog : Waiting for Page to load.
+21/06/2018 11:34:52 AutomationLog : PASS
+21/06/2018 11:34:52 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:34:52 AutomationLog : PASS
+21/06/2018 11:34:52 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:34:55 AutomationLog : PASS
+21/06/2018 11:34:55 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:34:56 AutomationLog : PASS
+21/06/2018 11:34:56 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:34:59 AutomationLog : PASS
+21/06/2018 11:34:59 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:35:18 AutomationLog : PASS
+21/06/2018 11:35:18 AutomationLog : Verifying Page Title
+21/06/2018 11:35:18 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:35:18 AutomationLog : PASS
+21/06/2018 11:35:18 AutomationLog : Waiting for Page to load.
+21/06/2018 11:35:20 AutomationLog : PASS
+21/06/2018 11:35:20 AutomationLog : Entering: "4168" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 11:35:21 AutomationLog : PASS
+21/06/2018 11:35:21 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 11:35:23 AutomationLog : PASS
+21/06/2018 11:35:23 AutomationLog : Waiting for Page to load.
+21/06/2018 11:35:38 AutomationLog : PASS
+21/06/2018 11:35:38 AutomationLog : Performing Click action on APPLY_LEAVE
+21/06/2018 11:35:41 AutomationLog : PASS
+21/06/2018 11:35:41 AutomationLog : Waiting for Page to load.
+21/06/2018 11:35:43 AutomationLog : PASS
+21/06/2018 11:35:43 AutomationLog : Verifying Employee's Available Leave Balance Before applying Leave
+21/06/2018 11:35:43 AutomationLog : PASS
+21/06/2018 11:35:43 AutomationLog : Performing Click action on LEAVE_TYPE_DROPDWON
+21/06/2018 11:35:45 AutomationLog : PASS
+21/06/2018 11:35:45 AutomationLog : Waiting for Page to load.
+21/06/2018 11:35:47 AutomationLog : PASS
+21/06/2018 11:35:47 AutomationLog : Performing Click action on LEAVE
+21/06/2018 11:35:50 AutomationLog : PASS
+21/06/2018 11:35:50 AutomationLog : Performing Click action on SELECTFROMDATE_CALENDAR
+21/06/2018 11:35:53 AutomationLog : PASS
+21/06/2018 11:35:53 AutomationLog : Waiting for Page to load.
+21/06/2018 11:35:55 AutomationLog : PASS
+21/06/2018 11:35:55 AutomationLog : Entering: "29" text in CALENDARFROMTABLEPATH Field
+21/06/2018 11:35:57 AutomationLog : PASS
+21/06/2018 11:35:57 AutomationLog : Performing Click action on SELECTTODATE_CALENDAR
+21/06/2018 11:35:59 AutomationLog : PASS
+21/06/2018 11:35:59 AutomationLog : Entering: "29" text in CALENDARTOTABLEPATH Field
+21/06/2018 11:36:02 AutomationLog : PASS
+21/06/2018 11:36:02 AutomationLog : Entering: "LeaveNarration_21Jun2018113602IST" text in NARRATION Field
+21/06/2018 11:36:02 AutomationLog : PASS
+21/06/2018 11:36:02 AutomationLog : Performing Click action on SUBMITBTN
+21/06/2018 11:36:05 AutomationLog : PASS
+21/06/2018 11:36:05 AutomationLog : Verifying LEAVE_ACTUAL_TEXT Text on the Page
+21/06/2018 11:36:09 AutomationLog : Actual is-> Leave Added Successfully AND Expected is->Leave Added Successfully
+21/06/2018 11:36:09 AutomationLog : PASS
+21/06/2018 11:36:09 AutomationLog : Waiting for Page to load.
+21/06/2018 11:36:11 AutomationLog : PASS
+21/06/2018 11:36:13 AutomationLog : Verifing Narration Text, Actual is-> LeaveNarration_21Jun2018113602IST AND Expected is->LeaveNarration_21Jun2018113602IST
+21/06/2018 11:36:14 AutomationLog : Verifing From Date: 06/29/2018 is present in applied leave row data=> 06/29/2018 06/29/2018 1 Leave
+LeaveNarration_21Jun2018113602IST
+21/06/2018 11:36:14 AutomationLog : Verifing To Date: 06/29/2018 is present in applied leave row data=> 06/29/2018 06/29/2018 1 Leave
+LeaveNarration_21Jun2018113602IST
+21/06/2018 11:36:14 AutomationLog : Verifing No. of Leaves: 1 is present in applied leave row data=> 06/29/2018 06/29/2018 1 Leave
+LeaveNarration_21Jun2018113602IST
+21/06/2018 11:36:14 AutomationLog : PASS
+21/06/2018 11:36:14 AutomationLog : Waiting for Page to load.
+21/06/2018 11:36:16 AutomationLog : PASS
+21/06/2018 11:36:16 AutomationLog : Verifying Edit and Delete icons for the leave applied by employee 
+21/06/2018 11:36:22 AutomationLog : PASS
+21/06/2018 11:36:22 AutomationLog : Verifying Employee's Available Leave Balance After applying Leave
+21/06/2018 11:36:23 AutomationLog : PASS
+21/06/2018 11:36:23 AutomationLog : Clicking on Delete button for the Leave applied by Employee
+21/06/2018 11:36:29 AutomationLog : PASS
+21/06/2018 11:36:29 AutomationLog : Performing Click action on DELETE_LEAVE_BTN
+21/06/2018 11:36:31 AutomationLog : PASS
+21/06/2018 11:36:31 AutomationLog : Waiting for Page to load.
+21/06/2018 11:36:33 AutomationLog : PASS
+21/06/2018 11:36:33 AutomationLog : Closing the Browser
+21/06/2018 11:36:33 AutomationLog : PASS
+21/06/2018 11:36:33 AutomationLog : TestCase is Ending
+21/06/2018 11:36:33 AutomationLog : TEST SCRIPT:=> VWR_01_Verify_Apply_Leave_Functionality Has PASSED************
+21/06/2018 11:36:33 AutomationLog : PASS
+21/06/2018 11:36:33 AutomationLog : =========================================================
+21/06/2018 11:36:33 AutomationLog : Executing---VWR_02_Verify_Apply_Maternity_Leave_Functionality Test Case
+21/06/2018 11:36:33 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:36:33 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:36:36 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:36:56 AutomationLog : PASS
+21/06/2018 11:36:56 AutomationLog : Waiting for Page to load.
+21/06/2018 11:36:58 AutomationLog : PASS
+21/06/2018 11:36:58 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:36:59 AutomationLog : PASS
+21/06/2018 11:36:59 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:37:01 AutomationLog : PASS
+21/06/2018 11:37:01 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:37:02 AutomationLog : PASS
+21/06/2018 11:37:02 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:37:05 AutomationLog : PASS
+21/06/2018 11:37:05 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:37:22 AutomationLog : PASS
+21/06/2018 11:37:22 AutomationLog : Verifying Page Title
+21/06/2018 11:37:22 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:37:22 AutomationLog : PASS
+21/06/2018 11:37:22 AutomationLog : Waiting for Page to load.
+21/06/2018 11:37:24 AutomationLog : PASS
+21/06/2018 11:37:24 AutomationLog : Entering: "4168" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 11:37:25 AutomationLog : PASS
+21/06/2018 11:37:25 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 11:37:27 AutomationLog : PASS
+21/06/2018 11:37:27 AutomationLog : Waiting for Page to load.
+21/06/2018 11:37:42 AutomationLog : PASS
+21/06/2018 11:37:42 AutomationLog : Performing Click action on APPLY_LEAVE
+21/06/2018 11:37:45 AutomationLog : PASS
+21/06/2018 11:37:45 AutomationLog : Waiting for Page to load.
+21/06/2018 11:37:47 AutomationLog : PASS
+21/06/2018 11:37:47 AutomationLog : Performing Click action on LEAVE_TYPE_DROPDWON
+21/06/2018 11:37:49 AutomationLog : PASS
+21/06/2018 11:37:49 AutomationLog : Performing Click action on MATERNITY_LEAVE
+21/06/2018 11:37:51 AutomationLog : PASS
+21/06/2018 11:37:51 AutomationLog : Performing Click action on SELECTFROMDATE_CALENDAR
+21/06/2018 11:37:54 AutomationLog : PASS
+21/06/2018 11:37:54 AutomationLog : Entering: "29" text in CALENDARFROMTABLEPATH Field
+21/06/2018 11:37:56 AutomationLog : PASS
+21/06/2018 11:37:56 AutomationLog : Entering: "LeaveNarration_21Jun2018113756IST" text in NARRATION Field
+21/06/2018 11:37:57 AutomationLog : PASS
+21/06/2018 11:37:57 AutomationLog : Performing Click action on SUBMITBTN
+21/06/2018 11:37:59 AutomationLog : PASS
+21/06/2018 11:37:59 AutomationLog : Verifying LEAVE_ACTUAL_TEXT Text on the Page
+21/06/2018 11:38:04 AutomationLog : Actual is-> Leave Added Successfully AND Expected is->Leave Added Successfully
+21/06/2018 11:38:04 AutomationLog : PASS
+21/06/2018 11:38:04 AutomationLog : Waiting for Page to load.
+21/06/2018 11:38:06 AutomationLog : PASS
+21/06/2018 11:38:08 AutomationLog : Verifing Narration Text, Actual is-> LeaveNarration_21Jun2018113756IST AND Expected is->LeaveNarration_21Jun2018113756IST
+21/06/2018 11:38:09 AutomationLog : Verifing From Date: 06/29/2018 is present in applied leave row data=> 06/29/2018 12/27/2018 182 Maternity
+LeaveNarration_21Jun2018113756IST
+21/06/2018 11:38:09 AutomationLog : Verifing No. of Leaves: 182 is present in applied leave row data=> 06/29/2018 12/27/2018 182 Maternity
+LeaveNarration_21Jun2018113756IST
+21/06/2018 11:38:09 AutomationLog : Verifing Leave Type: Maternity is present in applied leave row data=> 06/29/2018 12/27/2018 182 Maternity
+LeaveNarration_21Jun2018113756IST
+21/06/2018 11:38:09 AutomationLog : PASS
+21/06/2018 11:38:09 AutomationLog : Waiting for Page to load.
+21/06/2018 11:38:11 AutomationLog : PASS
+21/06/2018 11:38:11 AutomationLog : Clicking on Delete button for the Leave applied by Employee
+21/06/2018 11:38:17 AutomationLog : PASS
+21/06/2018 11:38:17 AutomationLog : Performing Click action on DELETE_LEAVE_BTN
+21/06/2018 11:38:20 AutomationLog : PASS
+21/06/2018 11:38:20 AutomationLog : Waiting for Page to load.
+21/06/2018 11:38:22 AutomationLog : PASS
+21/06/2018 11:38:22 AutomationLog : Closing the Browser
+21/06/2018 11:38:22 AutomationLog : PASS
+21/06/2018 11:38:22 AutomationLog : TestCase is Ending
+21/06/2018 11:38:22 AutomationLog : TEST SCRIPT:=> VWR_02_Verify_Apply_Maternity_Leave_Functionality Has PASSED************
+21/06/2018 11:38:22 AutomationLog : PASS
+21/06/2018 11:38:22 AutomationLog : =========================================================
+21/06/2018 11:38:22 AutomationLog : Executing---VWR_03_Verify_Update_Edit_Delete_Leave_Functionality Test Case
+21/06/2018 11:38:22 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:38:22 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:38:25 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:38:47 AutomationLog : PASS
+21/06/2018 11:38:47 AutomationLog : Waiting for Page to load.
+21/06/2018 11:38:49 AutomationLog : PASS
+21/06/2018 11:38:49 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:38:50 AutomationLog : PASS
+21/06/2018 11:38:50 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:38:52 AutomationLog : PASS
+21/06/2018 11:38:52 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:38:53 AutomationLog : PASS
+21/06/2018 11:38:53 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:38:57 AutomationLog : PASS
+21/06/2018 11:38:57 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:39:14 AutomationLog : PASS
+21/06/2018 11:39:14 AutomationLog : Verifying Page Title
+21/06/2018 11:39:14 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:39:14 AutomationLog : PASS
+21/06/2018 11:39:14 AutomationLog : Performing Click action on APPLY_LEAVE
+21/06/2018 11:39:17 AutomationLog : PASS
+21/06/2018 11:39:17 AutomationLog : Waiting for Page to load.
+21/06/2018 11:39:22 AutomationLog : PASS
+21/06/2018 11:39:22 AutomationLog : Performing Click action on LEAVE_TYPE_DROPDWON
+21/06/2018 11:39:24 AutomationLog : PASS
+21/06/2018 11:39:24 AutomationLog : Performing Click action on LEAVE
+21/06/2018 11:39:27 AutomationLog : PASS
+21/06/2018 11:39:27 AutomationLog : Performing Click action on SELECTFROMDATE_CALENDAR
+21/06/2018 11:39:29 AutomationLog : PASS
+21/06/2018 11:39:29 AutomationLog : Entering: "29" text in CALENDARFROMTABLEPATH Field
+21/06/2018 11:39:31 AutomationLog : PASS
+21/06/2018 11:39:31 AutomationLog : Performing Click action on SELECTTODATE_CALENDAR
+21/06/2018 11:39:34 AutomationLog : PASS
+21/06/2018 11:39:34 AutomationLog : Entering: "29" text in CALENDARTOTABLEPATH Field
+21/06/2018 11:39:36 AutomationLog : PASS
+21/06/2018 11:39:36 AutomationLog : Entering: "LeaveNarration_21Jun2018113936IST" text in NARRATION Field
+21/06/2018 11:39:37 AutomationLog : PASS
+21/06/2018 11:39:37 AutomationLog : Performing Click action on SUBMITBTN
+21/06/2018 11:39:39 AutomationLog : PASS
+21/06/2018 11:39:39 AutomationLog : Verifying LEAVE_ACTUAL_TEXT Text on the Page
+21/06/2018 11:39:44 AutomationLog : Actual is-> Leave Added Successfully AND Expected is->Leave Added Successfully
+21/06/2018 11:39:44 AutomationLog : PASS
+21/06/2018 11:39:44 AutomationLog : Waiting for Page to load.
+21/06/2018 11:39:46 AutomationLog : PASS
+21/06/2018 11:39:46 AutomationLog : Clicking on Edit button for the Leave applied by Employee
+21/06/2018 11:39:51 AutomationLog : PASS
+21/06/2018 11:39:51 AutomationLog : Performing Click action on SELECTFROMDATE_CALENDAR
+21/06/2018 11:39:54 AutomationLog : PASS
+21/06/2018 11:39:54 AutomationLog : Waiting for Page to load.
+21/06/2018 11:39:56 AutomationLog : PASS
+21/06/2018 11:39:56 AutomationLog : Entering: "29" text in CALENDARFROMTABLEPATH Field
+21/06/2018 11:39:58 AutomationLog : PASS
+21/06/2018 11:39:58 AutomationLog : Performing Click action on SELECTTODATE_CALENDAR
+21/06/2018 11:40:01 AutomationLog : PASS
+21/06/2018 11:40:01 AutomationLog : Entering: "29" text in CALENDARTOTABLEPATH Field
+21/06/2018 11:40:03 AutomationLog : PASS
+21/06/2018 11:40:03 AutomationLog : Entering: "LeaveNarration_21Jun2018114003IST" text in NARRATION Field
+21/06/2018 11:40:04 AutomationLog : PASS
+21/06/2018 11:40:04 AutomationLog : Performing Click action on SUBMITBTN
+21/06/2018 11:40:06 AutomationLog : PASS
+21/06/2018 11:40:06 AutomationLog : Verifying LEAVE_ACTUAL_TEXT Text on the Page
+21/06/2018 11:40:11 AutomationLog : Actual is-> Leave Updated Successfully AND Expected is->Leave Updated Successfully
+21/06/2018 11:40:11 AutomationLog : PASS
+21/06/2018 11:40:11 AutomationLog : Clicking on Delete button for the Leave applied by Employee
+21/06/2018 11:40:16 AutomationLog : PASS
+21/06/2018 11:40:16 AutomationLog : Performing Click action on DELETE_LEAVE_BTN
+21/06/2018 11:40:18 AutomationLog : PASS
+21/06/2018 11:40:18 AutomationLog : Closing the Browser
+21/06/2018 11:40:19 AutomationLog : PASS
+21/06/2018 11:40:19 AutomationLog : TestCase is Ending
+21/06/2018 11:40:19 AutomationLog : TEST SCRIPT:=> VWR_03_Verify_Update_Edit_Delete_Leave_Functionality Has PASSED************
+21/06/2018 11:40:19 AutomationLog : PASS
+21/06/2018 11:40:19 AutomationLog : =========================================================
+21/06/2018 11:40:19 AutomationLog : Executing---VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown Test Case
+21/06/2018 11:40:19 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:40:19 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:40:21 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:40:44 AutomationLog : PASS
+21/06/2018 11:40:44 AutomationLog : Waiting for Page to load.
+21/06/2018 11:40:46 AutomationLog : PASS
+21/06/2018 11:40:46 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:40:46 AutomationLog : PASS
+21/06/2018 11:40:46 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:40:49 AutomationLog : PASS
+21/06/2018 11:40:49 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:40:50 AutomationLog : PASS
+21/06/2018 11:40:50 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:40:53 AutomationLog : PASS
+21/06/2018 11:40:53 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:41:11 AutomationLog : PASS
+21/06/2018 11:41:11 AutomationLog : Verifying Page Title
+21/06/2018 11:41:11 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:41:11 AutomationLog : PASS
+21/06/2018 11:41:11 AutomationLog : Performing Click action on APPLY_LEAVE
+21/06/2018 11:41:13 AutomationLog : PASS
+21/06/2018 11:41:13 AutomationLog : Waiting for Page to load.
+21/06/2018 11:41:18 AutomationLog : PASS
+21/06/2018 11:41:18 AutomationLog : Verifying Data from Dropdown List
+21/06/2018 11:41:19 AutomationLog : PASS
+21/06/2018 11:41:19 AutomationLog : Closing the Browser
+21/06/2018 11:41:19 AutomationLog : PASS
+21/06/2018 11:41:19 AutomationLog : TestCase is Ending
+21/06/2018 11:41:19 AutomationLog : TEST SCRIPT:=> VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown Has PASSED************
+21/06/2018 11:41:19 AutomationLog : PASS
+21/06/2018 11:41:19 AutomationLog : =========================================================
+21/06/2018 11:41:19 AutomationLog : Executing---VWR_05_Verify_Helpdesk_Functionality Test Case
+21/06/2018 11:41:19 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:41:19 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:41:21 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:41:44 AutomationLog : PASS
+21/06/2018 11:41:44 AutomationLog : Waiting for Page to load.
+21/06/2018 11:41:46 AutomationLog : PASS
+21/06/2018 11:41:46 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:41:46 AutomationLog : PASS
+21/06/2018 11:41:46 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:41:49 AutomationLog : PASS
+21/06/2018 11:41:49 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:41:50 AutomationLog : PASS
+21/06/2018 11:41:50 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:41:53 AutomationLog : PASS
+21/06/2018 11:41:53 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:42:11 AutomationLog : PASS
+21/06/2018 11:42:11 AutomationLog : Verifying Page Title
+21/06/2018 11:42:11 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:42:11 AutomationLog : PASS
+21/06/2018 11:42:11 AutomationLog : Performing Click action on HELPDESK_LINK
+21/06/2018 11:42:13 AutomationLog : PASS
+21/06/2018 11:42:13 AutomationLog : Waiting for Page to load.
+21/06/2018 11:42:18 AutomationLog : PASS
+21/06/2018 11:42:18 AutomationLog : Performing Click action on SELECT_CATEGORY
+21/06/2018 11:42:21 AutomationLog : PASS
+21/06/2018 11:42:21 AutomationLog : Performing Click action on CATEGORY_IT
+21/06/2018 11:42:23 AutomationLog : PASS
+21/06/2018 11:42:23 AutomationLog : Performing Click action on NEW_TICKET_REQUIRED_TILL_DATE
+21/06/2018 11:42:26 AutomationLog : PASS
+21/06/2018 11:42:26 AutomationLog : Entering: "29" text in NEW_TICKET_REQUIRED_TILL_DATE_CALENDAR Field
+21/06/2018 11:42:28 AutomationLog : PASS
+21/06/2018 11:42:28 AutomationLog : Performing Click action on SUB_CATEGORY
+21/06/2018 11:42:30 AutomationLog : PASS
+21/06/2018 11:42:30 AutomationLog : Performing Click action on SUB_CATEGORY_SOFTWARE
+21/06/2018 11:42:33 AutomationLog : PASS
+21/06/2018 11:42:33 AutomationLog : Performing Click action on TYPE
+21/06/2018 11:42:35 AutomationLog : PASS
+21/06/2018 11:42:35 AutomationLog : Performing Click action on TYPE_ISSUE
+21/06/2018 11:42:38 AutomationLog : PASS
+21/06/2018 11:42:38 AutomationLog : Performing Click action on SEVERITY
+21/06/2018 11:42:40 AutomationLog : PASS
+21/06/2018 11:42:40 AutomationLog : Performing Click action on SEVERITY_LOW
+21/06/2018 11:42:43 AutomationLog : PASS
+21/06/2018 11:42:43 AutomationLog : Entering: "TicketComment_21Jun2018114243IST" text in TICKET_COMMENTS Field
+21/06/2018 11:42:43 AutomationLog : PASS
+21/06/2018 11:42:43 AutomationLog : Performing Click action on TICKET_SUBMIT_BTN
+21/06/2018 11:42:46 AutomationLog : PASS
+21/06/2018 11:42:46 AutomationLog : Performing Click action on SAVE_TICKET_BTN
+21/06/2018 11:42:48 AutomationLog : PASS
+21/06/2018 11:42:48 AutomationLog : Verifying TICKET_ACTUAL_TEXT Text on the Page
+21/06/2018 11:42:53 AutomationLog : Actual is-> Your help desk ticket has been created AND Expected is->Your help desk ticket has been created
+21/06/2018 11:42:53 AutomationLog : PASS
+21/06/2018 11:42:53 AutomationLog : Performing Click action on MY_TICKETS
+21/06/2018 11:42:56 AutomationLog : PASS
+21/06/2018 11:42:56 AutomationLog : Performing Click action on SEARCH_BY_STATUS
+21/06/2018 11:42:58 AutomationLog : PASS
+21/06/2018 11:42:58 AutomationLog : Performing Click action on PENDING_FOR_APPROVAL_TICKETS
+21/06/2018 11:43:00 AutomationLog : PASS
+21/06/2018 11:43:00 AutomationLog : Waiting for Page to load.
+21/06/2018 11:43:05 AutomationLog : PASS
+21/06/2018 11:43:05 AutomationLog : Verifying if applied ticket is present in the Submitted tickets table
+21/06/2018 11:43:06 AutomationLog : Actual is-> 4655
+Sr. QA Engineer
+Mumbai, India
+tanveer.patel@v2solutions.com
+v2/ind/mum/cyber1/015
+Extension #: 606
+m : 09773312488
+IT201816511
+Assigned To: Manish BibhutiPrasad Kumar
+06/21/2018
+TicketComment_21Jun2018114243IST
+Issue-Low
+Pending For Approval AND Expected is->TicketComment_21Jun2018114243IST
+21/06/2018 11:43:07 AutomationLog : PASS
+21/06/2018 11:43:07 AutomationLog : Closing the Browser
+21/06/2018 11:43:07 AutomationLog : PASS
+21/06/2018 11:43:07 AutomationLog : TestCase is Ending
+21/06/2018 11:43:07 AutomationLog : TEST SCRIPT:=> VWR_05_Verify_Helpdesk_Functionality Has PASSED************
+21/06/2018 11:43:07 AutomationLog : PASS
+21/06/2018 11:43:07 AutomationLog : =========================================================
+21/06/2018 11:43:07 AutomationLog : Executing---VWR_06_Verify_Employees_Personal_Information Test Case
+21/06/2018 11:43:07 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:43:07 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:43:09 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:43:33 AutomationLog : PASS
+21/06/2018 11:43:33 AutomationLog : Waiting for Page to load.
+21/06/2018 11:43:35 AutomationLog : PASS
+21/06/2018 11:43:35 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:43:35 AutomationLog : PASS
+21/06/2018 11:43:35 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:43:38 AutomationLog : PASS
+21/06/2018 11:43:38 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:43:39 AutomationLog : PASS
+21/06/2018 11:43:39 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:43:41 AutomationLog : PASS
+21/06/2018 11:43:41 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:43:59 AutomationLog : PASS
+21/06/2018 11:43:59 AutomationLog : Verifying Page Title
+21/06/2018 11:43:59 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:43:59 AutomationLog : PASS
+21/06/2018 11:43:59 AutomationLog : Waiting for Page to load.
+21/06/2018 11:44:01 AutomationLog : PASS
+21/06/2018 11:44:01 AutomationLog : Entering: "4168" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 11:44:01 AutomationLog : PASS
+21/06/2018 11:44:01 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 11:44:04 AutomationLog : PASS
+21/06/2018 11:44:04 AutomationLog : Waiting for Page to load.
+21/06/2018 11:44:19 AutomationLog : PASS
+21/06/2018 11:44:19 AutomationLog : Performing Click action on PERSONAL_LINK
+21/06/2018 11:44:21 AutomationLog : PASS
+21/06/2018 11:44:21 AutomationLog : Performing Click action on PERSONAL_DETAILS_EDIT_LINK
+21/06/2018 11:45:12 AutomationLog : FAIL - Not able to click on -- PERSONAL_DETAILS_EDIT_LINKnull
+21/06/2018 11:45:13 AutomationLog : ACTION failed for UI because of Object Not Found Issue. Please refer VWR_06--Failed_AT-Click-PERSONAL_DETAILS_EDIT_LINK-2106_114513_AM(IST).png
+21/06/2018 11:45:13 AutomationLog : TEST SCRIPT:=> VWR_06_Verify_Employees_Personal_Information Has FAILED!!!!!!!!!!!!
+21/06/2018 11:45:13 AutomationLog : Quiting all opened Browsers
+21/06/2018 11:45:15 AutomationLog : =========================================================
+21/06/2018 11:45:15 AutomationLog : Executing---VWR_07_Verify_Employees_Professional_Information Test Case
+21/06/2018 11:45:15 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:45:15 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:45:17 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:45:40 AutomationLog : PASS
+21/06/2018 11:45:40 AutomationLog : Waiting for Page to load.
+21/06/2018 11:45:42 AutomationLog : PASS
+21/06/2018 11:45:42 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:45:42 AutomationLog : PASS
+21/06/2018 11:45:42 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:45:45 AutomationLog : PASS
+21/06/2018 11:45:45 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:45:45 AutomationLog : PASS
+21/06/2018 11:45:45 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:45:48 AutomationLog : PASS
+21/06/2018 11:45:48 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:46:06 AutomationLog : PASS
+21/06/2018 11:46:06 AutomationLog : Verifying Page Title
+21/06/2018 11:46:06 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:46:06 AutomationLog : PASS
+21/06/2018 11:46:06 AutomationLog : Waiting for Page to load.
+21/06/2018 11:46:08 AutomationLog : PASS
+21/06/2018 11:46:08 AutomationLog : Entering: "4168" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 11:46:08 AutomationLog : PASS
+21/06/2018 11:46:08 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 11:46:11 AutomationLog : PASS
+21/06/2018 11:46:11 AutomationLog : Waiting for Page to load.
+21/06/2018 11:46:26 AutomationLog : PASS
+21/06/2018 11:46:26 AutomationLog : Performing Click action on PROFESSIONAL_LINK
+21/06/2018 11:46:28 AutomationLog : PASS
+21/06/2018 11:46:28 AutomationLog : Performing Click action on ADD_SKILLS_LINK
+21/06/2018 11:46:31 AutomationLog : PASS
+21/06/2018 11:46:31 AutomationLog : Performing Click action on SELECT_SKILL_DROPDOWN
+21/06/2018 11:46:33 AutomationLog : PASS
+21/06/2018 11:46:33 AutomationLog : Performing Click action on AWS_SKILL
+21/06/2018 11:46:36 AutomationLog : PASS
+21/06/2018 11:46:36 AutomationLog : Entering: "1" text in SKILL_RATING Field
+21/06/2018 11:46:36 AutomationLog : PASS
+21/06/2018 11:46:36 AutomationLog : Performing Click action on SAVE_SKILL_BTN
+21/06/2018 11:46:38 AutomationLog : PASS
+21/06/2018 11:46:38 AutomationLog : Scrolling The Page to END Using END key
+21/06/2018 11:46:38 AutomationLog : PASS
+21/06/2018 11:46:38 AutomationLog : Performing Click action on DELETE_SKILL_BTN
+21/06/2018 11:46:41 AutomationLog : PASS
+21/06/2018 11:46:41 AutomationLog : Performing Click action on DELETE_CONFIRM_OK
+21/06/2018 11:46:43 AutomationLog : PASS
+21/06/2018 11:46:43 AutomationLog : Performing Click action on ADD_EXPERIENCE_LINK
+21/06/2018 11:46:46 AutomationLog : PASS
+21/06/2018 11:46:46 AutomationLog : Entering: "Test ABC" text in ORG_NAME Field
+21/06/2018 11:46:46 AutomationLog : PASS
+21/06/2018 11:46:46 AutomationLog : Entering: "Test EFG" text in ORG_LOCATION Field
+21/06/2018 11:46:47 AutomationLog : PASS
+21/06/2018 11:46:47 AutomationLog : Performing Click action on WORKEDFROMCALENDAR_LINK
+21/06/2018 11:46:49 AutomationLog : PASS
+21/06/2018 11:46:49 AutomationLog : Entering: "1" text in WORKEDFROMCALENDAR_TBODY_LINK Field
+21/06/2018 11:46:51 AutomationLog : PASS
+21/06/2018 11:46:51 AutomationLog : Performing Click action on WORKEDFROMCALENDAR_CLOSE_BTN
+21/06/2018 11:46:53 AutomationLog : PASS
+21/06/2018 11:46:53 AutomationLog : Performing Click action on WORKEDTILLCALENDAR_LINK
+21/06/2018 11:46:56 AutomationLog : PASS
+21/06/2018 11:46:56 AutomationLog : Entering: "1" text in WORKEDTILLCALENDAR_TBODY_LINK Field
+21/06/2018 11:46:57 AutomationLog : PASS
+21/06/2018 11:46:57 AutomationLog : Performing Click action on WORKEDTILLCALENDAR_CLOSE_BTN
+21/06/2018 11:47:00 AutomationLog : PASS
+21/06/2018 11:47:00 AutomationLog : Entering: "Test XYZ" text in DESIGNATION Field
+21/06/2018 11:47:00 AutomationLog : PASS
+21/06/2018 11:47:00 AutomationLog : Performing Click action on ADD_EXPERIENCE_SAVE_BTN
+21/06/2018 11:47:03 AutomationLog : PASS
+21/06/2018 11:47:03 AutomationLog : Verifying EXPERIENCE_DETAILS_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 11:47:06 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 11:47:06 AutomationLog : PASS
+21/06/2018 11:47:06 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 11:47:07 AutomationLog : PASS
+21/06/2018 11:47:07 AutomationLog : Performing Click action on ADD_DECLARATION_LINK
+21/06/2018 11:47:09 AutomationLog : FAIL - Not able to click on -- ADD_DECLARATION_LINKunknown error: Element <i aria-hidden="true" class="fa fa-plus icon-btn add" title="Add"></i> is not clickable at point (933, 913). Other element would receive the click: <div _ngcontent-c0="" class="col s6 m6 l6 right-align m-top20 branding">...</div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'V2MUMPC0464', ip: '192.168.50.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\TANVEE~1.PAT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: d328ae829393d78ea649da8a31c68165
+21/06/2018 11:47:09 AutomationLog : ACTION failed for UI because of Object Not Found Issue. Please refer VWR_07--Failed_AT-Click-ADD_DECLARATION_LINK-2106_114709_AM(IST).png
+21/06/2018 11:47:09 AutomationLog : TEST SCRIPT:=> VWR_07_Verify_Employees_Professional_Information Has FAILED!!!!!!!!!!!!
+21/06/2018 11:47:09 AutomationLog : Quiting all opened Browsers
+21/06/2018 11:47:09 AutomationLog : =========================================================
+21/06/2018 11:47:09 AutomationLog : Executing---VWR_08_Verify_Dashboard_Functionality Test Case
+21/06/2018 11:47:09 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:47:09 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:47:12 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:47:35 AutomationLog : PASS
+21/06/2018 11:47:35 AutomationLog : Waiting for Page to load.
+21/06/2018 11:47:37 AutomationLog : PASS
+21/06/2018 11:47:37 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:47:38 AutomationLog : PASS
+21/06/2018 11:47:38 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:47:40 AutomationLog : PASS
+21/06/2018 11:47:40 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:47:41 AutomationLog : PASS
+21/06/2018 11:47:41 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:47:44 AutomationLog : PASS
+21/06/2018 11:47:44 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:48:02 AutomationLog : PASS
+21/06/2018 11:48:02 AutomationLog : Verifying Page Title
+21/06/2018 11:48:02 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:48:02 AutomationLog : PASS
+21/06/2018 11:48:02 AutomationLog : Waiting for Page to load.
+21/06/2018 11:48:04 AutomationLog : PASS
+21/06/2018 11:48:04 AutomationLog : Entering: "1092" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 11:48:05 AutomationLog : PASS
+21/06/2018 11:48:05 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 11:48:07 AutomationLog : PASS
+21/06/2018 11:48:07 AutomationLog : Waiting for Page to load.
+21/06/2018 11:48:22 AutomationLog : PASS
+21/06/2018 11:48:22 AutomationLog : Performing Click action on APPLY_LEAVE
+21/06/2018 11:48:24 AutomationLog : PASS
+21/06/2018 11:48:24 AutomationLog : Verifying APPLY_FOR_LEAVES_TEXT Text on the Page
+21/06/2018 11:48:28 AutomationLog : Actual is-> Apply For Leaves AND Expected is->Apply For Leaves
+21/06/2018 11:48:28 AutomationLog : PASS
+21/06/2018 11:48:28 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:48:30 AutomationLog : PASS
+21/06/2018 11:48:30 AutomationLog : Performing Click action on HOLIDAY_LIST_LINK
+21/06/2018 11:48:33 AutomationLog : PASS
+21/06/2018 11:48:33 AutomationLog : Verifying HOLIDAY_LIST_TEXT Text on the Page
+21/06/2018 11:48:36 AutomationLog : Actual is-> Holiday List AND Expected is->Holiday List
+21/06/2018 11:48:36 AutomationLog : PASS
+21/06/2018 11:48:36 AutomationLog : Verifying MUMBAI_HOLIDAY_LIST_TEXT Text on the Page
+21/06/2018 11:48:39 AutomationLog : Actual is-> MUMBAI AND Expected is->MUMBAI
+21/06/2018 11:48:39 AutomationLog : PASS
+21/06/2018 11:48:39 AutomationLog : Verifying BANGALORE_HOLIDAY_LIST_TEXT Text on the Page
+21/06/2018 11:48:43 AutomationLog : Actual is-> BANGALORE AND Expected is->BANGALORE
+21/06/2018 11:48:43 AutomationLog : PASS
+21/06/2018 11:48:43 AutomationLog : Verifying USA_HOLIDAY_LIST_TEXT Text on the Page
+21/06/2018 11:48:46 AutomationLog : Actual is-> USA AND Expected is->USA
+21/06/2018 11:48:46 AutomationLog : PASS
+21/06/2018 11:48:46 AutomationLog : Performing Click action on CLOSE_HOLIDAY_LIST_POPUP_LINK
+21/06/2018 11:48:48 AutomationLog : PASS
+21/06/2018 11:48:48 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:48:51 AutomationLog : PASS
+21/06/2018 11:48:51 AutomationLog : Performing Click action on MY_TEAM_DETAILS
+21/06/2018 11:48:53 AutomationLog : PASS
+21/06/2018 11:48:53 AutomationLog : Verifing Page URL:
+21/06/2018 11:48:53 AutomationLog : Actual Permalink value is-> my-team AND Expected is->my-team
+21/06/2018 11:48:53 AutomationLog : PASS
+21/06/2018 11:48:53 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:48:56 AutomationLog : PASS
+21/06/2018 11:48:56 AutomationLog : Performing Click action on PERSONAL_LINK
+21/06/2018 11:48:58 AutomationLog : PASS
+21/06/2018 11:48:58 AutomationLog : Verifing Page URL:
+21/06/2018 11:48:58 AutomationLog : Actual Permalink value is-> personal AND Expected is->personal
+21/06/2018 11:48:58 AutomationLog : PASS
+21/06/2018 11:48:58 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:49:01 AutomationLog : PASS
+21/06/2018 11:49:01 AutomationLog : Performing Click action on PROFESSIONAL_LINK
+21/06/2018 11:49:03 AutomationLog : PASS
+21/06/2018 11:49:03 AutomationLog : Verifing Page URL:
+21/06/2018 11:49:03 AutomationLog : Actual Permalink value is-> professional AND Expected is->professional
+21/06/2018 11:49:03 AutomationLog : PASS
+21/06/2018 11:49:03 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:49:05 AutomationLog : PASS
+21/06/2018 11:49:05 AutomationLog : Performing Click action on ATTENDANCE_LINK
+21/06/2018 11:49:08 AutomationLog : PASS
+21/06/2018 11:49:08 AutomationLog : Verifing Page URL:
+21/06/2018 11:49:08 AutomationLog : Actual Permalink value is-> attendance AND Expected is->attendance
+21/06/2018 11:49:08 AutomationLog : PASS
+21/06/2018 11:49:08 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:49:10 AutomationLog : PASS
+21/06/2018 11:49:10 AutomationLog : Performing Click action on HELPDESK_LINK
+21/06/2018 11:49:13 AutomationLog : PASS
+21/06/2018 11:49:13 AutomationLog : Verifing Page URL:
+21/06/2018 11:49:13 AutomationLog FAIL - Not Able to verify permalink content dashboard
+21/06/2018 11:49:13 AutomationLog : FAIL - Actual permalink content is-> dashboard AND Expected is->newticket
+21/06/2018 11:49:14 AutomationLog : Unable to Verify, as Web Element Not Found. Please refer VWR_08--Failed_AT-VerifyPermalinkContent--2106_114913_AM(IST).png
+21/06/2018 11:49:14 AutomationLog : Performing Click action on MY_TICKETS
+21/06/2018 11:50:05 AutomationLog : FAIL - Not able to click on -- MY_TICKETSnull
+21/06/2018 11:50:05 AutomationLog : ACTION failed for UI because of Object Not Found Issue. Please refer VWR_08--Failed_AT-Click-MY_TICKETS-2106_115005_AM(IST).png
+21/06/2018 11:50:05 AutomationLog : TEST SCRIPT:=> VWR_08_Verify_Dashboard_Functionality Has FAILED!!!!!!!!!!!!
+21/06/2018 11:50:05 AutomationLog : Quiting all opened Browsers
+21/06/2018 11:50:05 AutomationLog : =========================================================
+21/06/2018 11:50:05 AutomationLog : Executing---VWR_09_Verify_Expense_Reimbursement_Functionality Test Case
+21/06/2018 11:50:05 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:50:05 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:50:08 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:50:27 AutomationLog : PASS
+21/06/2018 11:50:27 AutomationLog : Waiting for Page to load.
+21/06/2018 11:50:29 AutomationLog : PASS
+21/06/2018 11:50:29 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:50:29 AutomationLog : PASS
+21/06/2018 11:50:29 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:50:32 AutomationLog : PASS
+21/06/2018 11:50:32 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:50:33 AutomationLog : PASS
+21/06/2018 11:50:33 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:50:35 AutomationLog : PASS
+21/06/2018 11:50:35 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:50:53 AutomationLog : PASS
+21/06/2018 11:50:53 AutomationLog : Verifying Page Title
+21/06/2018 11:50:53 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:50:53 AutomationLog : PASS
+21/06/2018 11:50:53 AutomationLog : Waiting for Page to load.
+21/06/2018 11:50:55 AutomationLog : PASS
+21/06/2018 11:50:55 AutomationLog : Entering: "4168" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 11:50:56 AutomationLog : PASS
+21/06/2018 11:50:56 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 11:50:58 AutomationLog : PASS
+21/06/2018 11:50:58 AutomationLog : Waiting for Page to load.
+21/06/2018 11:51:13 AutomationLog : PASS
+21/06/2018 11:51:13 AutomationLog : Performing Click action on EXPENSE_REIMBURSEMENT_LINK
+21/06/2018 11:51:16 AutomationLog : PASS
+21/06/2018 11:51:16 AutomationLog : Performing Click action on CLIENT_REIMBURSEMENT
+21/06/2018 11:51:18 AutomationLog : PASS
+21/06/2018 11:51:18 AutomationLog : Performing Click action on CLIENT_REIMBURSEMENT_YES
+21/06/2018 11:51:21 AutomationLog : PASS
+21/06/2018 11:51:21 AutomationLog : Performing Click action on CURRENCY
+21/06/2018 11:51:23 AutomationLog : PASS
+21/06/2018 11:51:23 AutomationLog : Performing Click action on CURRENCY_INR
+21/06/2018 11:51:26 AutomationLog : PASS
+21/06/2018 11:51:26 AutomationLog : Performing Click action on COST_CENTER
+21/06/2018 11:51:28 AutomationLog : PASS
+21/06/2018 11:51:28 AutomationLog : Performing Click action on COST_CENTER_CORPORATE
+21/06/2018 11:51:31 AutomationLog : PASS
+21/06/2018 11:51:31 AutomationLog : Performing Click action on APPROVER
+21/06/2018 11:51:33 AutomationLog : PASS
+21/06/2018 11:51:33 AutomationLog : Performing Click action on APPROVER_MANISH_KUMAR
+21/06/2018 11:51:35 AutomationLog : PASS
+21/06/2018 11:51:35 AutomationLog : Entering: "1234" text in RECEIPT_NO Field
+21/06/2018 11:51:36 AutomationLog : PASS
+21/06/2018 11:51:36 AutomationLog : Performing Click action on EXPENSE_DATE
+21/06/2018 11:51:38 AutomationLog : PASS
+21/06/2018 11:51:38 AutomationLog : Entering: "1" text in EXPENSE_DATE_CALENDAR Field
+21/06/2018 11:51:40 AutomationLog : PASS
+21/06/2018 11:51:40 AutomationLog : Performing Click action on EXPENSE_CATEGORY
+21/06/2018 11:51:42 AutomationLog : PASS
+21/06/2018 11:51:42 AutomationLog : Performing Click action on EXPENSE_CATEGORY_TRAVELLING_ALLOWANCE
+21/06/2018 11:51:45 AutomationLog : PASS
+21/06/2018 11:51:45 AutomationLog : Performing Click action on PROJECT_NAME
+21/06/2018 11:51:47 AutomationLog : PASS
+21/06/2018 11:51:47 AutomationLog : Performing Click action on PROJECT_NAME_ABCD
+21/06/2018 11:51:50 AutomationLog : PASS
+21/06/2018 11:51:50 AutomationLog : Entering: "100" text in AMOUNT Field
+21/06/2018 11:51:50 AutomationLog : PASS
+21/06/2018 11:51:50 AutomationLog : Entering: "ExpenseComment_21Jun2018115150IST" text in EXPENSE_COMMENT Field
+21/06/2018 11:51:51 AutomationLog : PASS
+21/06/2018 11:51:51 AutomationLog : Performing Click action on SUBMIT_EXPENSE_BTN
+21/06/2018 11:51:53 AutomationLog : PASS
+21/06/2018 11:51:53 AutomationLog : Performing Click action on CONFIRM_EXPENSE_BTN
+21/06/2018 11:51:56 AutomationLog : PASS
+21/06/2018 11:51:56 AutomationLog : Performing Click action on SUBMITTED_CLAIMS_LINK
+21/06/2018 11:51:58 AutomationLog : PASS
+21/06/2018 11:51:58 AutomationLog : Performing Click action on SUBMITTED_CLAIMS_EXPAND_LINK
+21/06/2018 11:52:01 AutomationLog : PASS
+21/06/2018 11:52:01 AutomationLog : Verifying if applied claim is present in the Submitted Claims table
+21/06/2018 11:52:01 AutomationLog : Actual is-> ExpenseComment_21Jun2018115150IST AND Expected is->ExpenseComment_21Jun2018115150IST
+21/06/2018 11:52:01 AutomationLog : PASS
+21/06/2018 11:52:01 AutomationLog : Closing the Browser
+21/06/2018 11:52:01 AutomationLog : PASS
+21/06/2018 11:52:01 AutomationLog : TestCase is Ending
+21/06/2018 11:52:01 AutomationLog : TEST SCRIPT:=> VWR_09_Verify_Expense_Reimbursement_Functionality Has PASSED************
+21/06/2018 11:52:01 AutomationLog : PASS
+21/06/2018 11:52:01 AutomationLog : =========================================================
+21/06/2018 11:52:01 AutomationLog : Executing---VWR_10_Verify_Reports_Functionality Test Case
+21/06/2018 11:52:01 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:52:01 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:52:04 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:52:27 AutomationLog : PASS
+21/06/2018 11:52:27 AutomationLog : Waiting for Page to load.
+21/06/2018 11:52:29 AutomationLog : PASS
+21/06/2018 11:52:29 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:52:29 AutomationLog : PASS
+21/06/2018 11:52:29 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:52:32 AutomationLog : PASS
+21/06/2018 11:52:32 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:52:33 AutomationLog : PASS
+21/06/2018 11:52:33 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:52:36 AutomationLog : PASS
+21/06/2018 11:52:36 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:52:55 AutomationLog : PASS
+21/06/2018 11:52:55 AutomationLog : Verifying Page Title
+21/06/2018 11:52:55 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:52:55 AutomationLog : PASS
+21/06/2018 11:52:55 AutomationLog : Waiting for Page to load.
+21/06/2018 11:52:57 AutomationLog : PASS
+21/06/2018 11:52:57 AutomationLog : Entering: "4168" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 11:52:58 AutomationLog : PASS
+21/06/2018 11:52:58 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 11:53:00 AutomationLog : PASS
+21/06/2018 11:53:00 AutomationLog : Waiting for Page to load.
+21/06/2018 11:53:15 AutomationLog : PASS
+21/06/2018 11:53:15 AutomationLog : Performing Click action on REPORTS_LINK
+21/06/2018 11:53:18 AutomationLog : PASS
+21/06/2018 11:53:18 AutomationLog : Performing Click action on ATTENDANCE_REPORT_LINK
+21/06/2018 11:53:20 AutomationLog : PASS
+21/06/2018 11:53:20 AutomationLog : Performing Click action on ATTENDANCE_REPORT_BTN
+21/06/2018 11:53:23 AutomationLog : PASS
+21/06/2018 11:53:23 AutomationLog : Verifing Page URL:
+21/06/2018 11:53:23 AutomationLog : Actual Permalink value is-> AttendanceDetail AND Expected is->AttendanceDetail
+21/06/2018 11:53:23 AutomationLog : PASS
+21/06/2018 11:53:23 AutomationLog : Performing Click action on ATTN_START_DATE
+21/06/2018 11:53:25 AutomationLog : PASS
+21/06/2018 11:53:25 AutomationLog : Entering: "1" text in ATTN_START_DATE_CALENDAR Field
+21/06/2018 11:53:27 AutomationLog : PASS
+21/06/2018 11:53:27 AutomationLog : Performing Click action on START_CALENDER_ClOSE_BTN
+21/06/2018 11:53:29 AutomationLog : PASS
+21/06/2018 11:53:29 AutomationLog : Performing Click action on ATTN_END_DATE
+21/06/2018 11:53:31 AutomationLog : PASS
+21/06/2018 11:53:31 AutomationLog : Entering: "29" text in ATTN_END_DATE_CALENDAR Field
+21/06/2018 11:53:34 AutomationLog : PASS
+21/06/2018 11:53:34 AutomationLog : Performing Click action on END_CALENDER_ClOSE_BTN
+21/06/2018 11:53:36 AutomationLog : PASS
+21/06/2018 11:53:36 AutomationLog : Performing Click action on GETREPORT_BTN
+21/06/2018 11:53:38 AutomationLog : PASS
+21/06/2018 11:53:38 AutomationLog : Verifying GETREPORT_TEXT Text on the Page
+21/06/2018 11:53:42 AutomationLog : Actual is-> Report Criteria AND Expected is->Report Criteria
+21/06/2018 11:53:42 AutomationLog : PASS
+21/06/2018 11:53:42 AutomationLog : Performing Click action on DOWNLOAD_ATTENDANCE_REPORT_LINK
+21/06/2018 11:53:44 AutomationLog : PASS
+21/06/2018 11:53:49 AutomationLog : Verifying 'attendance.csv' Exported File is Downloaded properly.
+21/06/2018 11:53:49 AutomationLog : attendance.csv file is Exported successfully at:-> 'C:\Users\tanveer.patel\Downloads\' Directoryand and its Size is 0.76KB
+21/06/2018 11:53:49 AutomationLog : PASS
+21/06/2018 11:53:49 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:53:52 AutomationLog : PASS
+21/06/2018 11:53:52 AutomationLog : Performing Click action on REPORTS_LINK
+21/06/2018 11:53:54 AutomationLog : PASS
+21/06/2018 11:53:54 AutomationLog : Performing Click action on LEAVE_REPORT_LINK
+21/06/2018 11:53:56 AutomationLog : PASS
+21/06/2018 11:53:56 AutomationLog : Performing Click action on LEAVE_DEATILS_REPORT_LINK
+21/06/2018 11:53:59 AutomationLog : PASS
+21/06/2018 11:53:59 AutomationLog : Verifing Page URL:
+21/06/2018 11:53:59 AutomationLog : Actual Permalink value is-> Leaves AND Expected is->Leaves
+21/06/2018 11:53:59 AutomationLog : PASS
+21/06/2018 11:53:59 AutomationLog : Performing Click action on LEAVE_DETAILS_START_DATE
+21/06/2018 11:54:01 AutomationLog : PASS
+21/06/2018 11:54:01 AutomationLog : Entering: "1" text in LEAVE_DETAILS_START_DATE_CALENDAR Field
+21/06/2018 11:54:03 AutomationLog : PASS
+21/06/2018 11:54:03 AutomationLog : Performing Click action on LEAVE_DETAILS_START_DATE_CALENDER_ClOSE_BTN
+21/06/2018 11:54:05 AutomationLog : PASS
+21/06/2018 11:54:05 AutomationLog : Performing Click action on LEAVE_DETAILS_END_DATE
+21/06/2018 11:54:08 AutomationLog : PASS
+21/06/2018 11:54:08 AutomationLog : Entering: "29" text in LEAVE_DETAILS_END_DATE_CALENDAR Field
+21/06/2018 11:54:10 AutomationLog : PASS
+21/06/2018 11:54:10 AutomationLog : Performing Click action on LEAVE_DETAILS_END_DATE_CALENDER_ClOSE_BTN
+21/06/2018 11:54:12 AutomationLog : PASS
+21/06/2018 11:54:12 AutomationLog : Performing Click action on LEAVE_GETREPORT_BTN
+21/06/2018 11:54:15 AutomationLog : PASS
+21/06/2018 11:54:15 AutomationLog : Scrolling The Page to END Using END key
+21/06/2018 11:54:15 AutomationLog : PASS
+21/06/2018 11:54:15 AutomationLog : Performing Click action on LEAVE_DETAIL_REPORT_DOWNLOAD_BTN
+21/06/2018 11:54:17 AutomationLog : PASS
+21/06/2018 11:54:22 AutomationLog : Verifying 'leavedetail.csv' Exported File is Downloaded properly.
+21/06/2018 11:54:22 AutomationLog : leavedetail.csv file is Exported successfully at:-> 'C:\Users\tanveer.patel\Downloads\' Directoryand and its Size is 2.23KB
+21/06/2018 11:54:22 AutomationLog : PASS
+21/06/2018 11:54:22 AutomationLog : Successfully deleted directory : C:\Users\tanveer.patel\Downloads
+21/06/2018 11:54:22 AutomationLog : PASS
+21/06/2018 11:54:22 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:54:25 AutomationLog : PASS
+21/06/2018 11:54:25 AutomationLog : Performing Click action on REPORTS_LINK
+21/06/2018 11:54:27 AutomationLog : PASS
+21/06/2018 11:54:27 AutomationLog : Performing Click action on LEAVE_REPORT_LINK
+21/06/2018 11:54:30 AutomationLog : PASS
+21/06/2018 11:54:30 AutomationLog : Performing Click action on LEAVE_LEDGER_SUMMARY_REPORT_LINK
+21/06/2018 11:54:32 AutomationLog : PASS
+21/06/2018 11:54:32 AutomationLog : Verifying LEAVE_LEDGER_SUMMARY_REPORT_TEXT Text on the Page
+21/06/2018 11:54:35 AutomationLog : Actual is-> Leave Ledger Summary Report AND Expected is->Leave Ledger Summary Report
+21/06/2018 11:54:35 AutomationLog : PASS
+21/06/2018 11:54:35 AutomationLog : Performing Click action on GETREPORT_BTN
+21/06/2018 11:54:38 AutomationLog : PASS
+21/06/2018 11:54:38 AutomationLog : Performing Click action on DOWNLOAD_LEAVE_LEDGER_SUMMARY_REPORT
+21/06/2018 11:54:40 AutomationLog : PASS
+21/06/2018 11:54:45 AutomationLog : Verifying 'leavesummary.csv' Exported File is Downloaded properly.
+21/06/2018 11:54:45 AutomationLog : leavesummary.csv file is Exported successfully at:-> 'C:\Users\tanveer.patel\Downloads\' Directoryand and its Size is 0.3KB
+21/06/2018 11:54:45 AutomationLog : PASS
+21/06/2018 11:54:45 AutomationLog : Successfully deleted directory : C:\Users\tanveer.patel\Downloads
+21/06/2018 11:54:45 AutomationLog : PASS
+21/06/2018 11:54:45 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:54:47 AutomationLog : PASS
+21/06/2018 11:54:47 AutomationLog : Performing Click action on REPORTS_LINK
+21/06/2018 11:54:50 AutomationLog : PASS
+21/06/2018 11:54:50 AutomationLog : Performing Click action on LEAVE_REPORT_LINK
+21/06/2018 11:54:52 AutomationLog : PASS
+21/06/2018 11:54:52 AutomationLog : Performing Click action on LEAVE_TRANSACTION_REPORT_LINK
+21/06/2018 11:54:55 AutomationLog : PASS
+21/06/2018 11:54:55 AutomationLog : Verifying LEAVE_TRANSACTION_REPORT_TEXT Text on the Page
+21/06/2018 11:54:58 AutomationLog : Actual is-> Leave Transaction Report AND Expected is->Leave Transaction Report
+21/06/2018 11:54:58 AutomationLog : PASS
+21/06/2018 11:54:58 AutomationLog : Performing Click action on LEAVE_TRANSACTION_REPORT_START_DATE
+21/06/2018 11:55:01 AutomationLog : PASS
+21/06/2018 11:55:01 AutomationLog : Entering: "1" text in LEAVE_TRANSACTION_REPORT_START_DATE_CALENDAR Field
+21/06/2018 11:55:02 AutomationLog : PASS
+21/06/2018 11:55:02 AutomationLog : Performing Click action on LEAVE_TRANSACTION_REPORT_START_DATE_CALENDER_ClOSE_BTN
+21/06/2018 11:55:05 AutomationLog : PASS
+21/06/2018 11:55:05 AutomationLog : Performing Click action on LEAVE_TRANSACTION_REPORT_END_DATE
+21/06/2018 11:55:07 AutomationLog : PASS
+21/06/2018 11:55:07 AutomationLog : Entering: "29" text in LEAVE_TRANSACTION_REPORT_END_DATE_CALENDAR Field
+21/06/2018 11:55:09 AutomationLog : PASS
+21/06/2018 11:55:09 AutomationLog : Performing Click action on LEAVE_TRANSACTION_REPORT_END_DATE_CALENDER_ClOSE_BTN
+21/06/2018 11:55:12 AutomationLog : PASS
+21/06/2018 11:55:12 AutomationLog : Performing Click action on LEAVE_GETREPORT_BTN
+21/06/2018 11:55:14 AutomationLog : PASS
+21/06/2018 11:55:14 AutomationLog : Performing Click action on LEAVE_TRANSACTION_REPORT_DOWNLOAD_BTN
+21/06/2018 11:55:17 AutomationLog : PASS
+21/06/2018 11:55:22 AutomationLog : Verifying 'leavetransaction.csv' Exported File is Downloaded properly.
+21/06/2018 11:55:22 AutomationLog : leavetransaction.csv file is Exported successfully at:-> 'C:\Users\tanveer.patel\Downloads\' Directoryand and its Size is 0.28KB
+21/06/2018 11:55:22 AutomationLog : PASS
+21/06/2018 11:55:22 AutomationLog : Successfully deleted directory : C:\Users\tanveer.patel\Downloads
+21/06/2018 11:55:22 AutomationLog : PASS
+21/06/2018 11:55:22 AutomationLog : Closing the Browser
+21/06/2018 11:55:22 AutomationLog : PASS
+21/06/2018 11:55:22 AutomationLog : TestCase is Ending
+21/06/2018 11:55:22 AutomationLog : TEST SCRIPT:=> VWR_10_Verify_Reports_Functionality Has PASSED************
+21/06/2018 11:55:22 AutomationLog : PASS
+21/06/2018 11:55:22 AutomationLog : =========================================================
+21/06/2018 11:55:22 AutomationLog : Executing---VWR_11_Verify_HR_Maintenance_Functionality Test Case
+21/06/2018 11:55:22 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 11:55:22 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 11:55:25 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 11:55:44 AutomationLog : PASS
+21/06/2018 11:55:44 AutomationLog : Waiting for Page to load.
+21/06/2018 11:55:46 AutomationLog : PASS
+21/06/2018 11:55:46 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 11:55:47 AutomationLog : PASS
+21/06/2018 11:55:47 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 11:55:49 AutomationLog : PASS
+21/06/2018 11:55:49 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 11:55:50 AutomationLog : PASS
+21/06/2018 11:55:50 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 11:55:53 AutomationLog : PASS
+21/06/2018 11:55:53 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 11:56:12 AutomationLog : PASS
+21/06/2018 11:56:12 AutomationLog : Verifying Page Title
+21/06/2018 11:56:12 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 11:56:12 AutomationLog : PASS
+21/06/2018 11:56:12 AutomationLog : Waiting for Page to load.
+21/06/2018 11:56:14 AutomationLog : PASS
+21/06/2018 11:56:14 AutomationLog : Entering: "3486" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 11:56:14 AutomationLog : PASS
+21/06/2018 11:56:14 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 11:56:16 AutomationLog : PASS
+21/06/2018 11:56:16 AutomationLog : Waiting for Page to load.
+21/06/2018 11:56:31 AutomationLog : PASS
+21/06/2018 11:56:31 AutomationLog : Performing Click action on LEAVES_SISO_LINK
+21/06/2018 11:56:34 AutomationLog : PASS
+21/06/2018 11:56:34 AutomationLog : Verifing Page URL:
+21/06/2018 11:56:34 AutomationLog : Actual Permalink value is-> admin AND Expected is->admin
+21/06/2018 11:56:34 AutomationLog : PASS
+21/06/2018 11:56:34 AutomationLog : Entering: "4655" text in EMP_NAME_CODE_INPUT_BOX Field
+21/06/2018 11:56:34 AutomationLog : PASS
+21/06/2018 11:56:34 AutomationLog : Performing Click action on EM_NAME_CODE_LINK
+21/06/2018 11:56:44 AutomationLog : PASS
+21/06/2018 11:56:44 AutomationLog : Waiting for Page to load.
+21/06/2018 11:56:49 AutomationLog : PASS
+21/06/2018 11:56:49 AutomationLog : Verifying EMP_CODE_TEXT Text on the Page
+21/06/2018 11:56:52 AutomationLog : Actual is-> 4655 AND Expected is->4655
+21/06/2018 11:56:52 AutomationLog : PASS
+21/06/2018 11:56:52 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:56:55 AutomationLog : PASS
+21/06/2018 11:56:55 AutomationLog : Performing Click action on ADMIN_CONFIGURATION_LINK
+21/06/2018 11:56:57 AutomationLog : PASS
+21/06/2018 11:56:57 AutomationLog : Verifing Page URL:
+21/06/2018 11:56:57 AutomationLog : Actual Permalink value is-> adminconfig AND Expected is->adminconfig
+21/06/2018 11:56:57 AutomationLog : PASS
+21/06/2018 11:56:57 AutomationLog : Performing Click action on SELECT_MODULE_TYPE_DROPDOWN
+21/06/2018 11:57:00 AutomationLog : PASS
+21/06/2018 11:57:00 AutomationLog : Performing Click action on LEAVE_ITEM_NOTES_TYPE_MODULE
+21/06/2018 11:57:02 AutomationLog : PASS
+21/06/2018 11:57:02 AutomationLog : Performing Click action on YEAR_DROPDOWN
+21/06/2018 11:57:04 AutomationLog : PASS
+21/06/2018 11:57:04 AutomationLog : Performing Click action on YEAR_2018
+21/06/2018 11:57:07 AutomationLog : PASS
+21/06/2018 11:57:07 AutomationLog : Performing Click action on LOCATION_DROPDWON
+21/06/2018 11:57:09 AutomationLog : PASS
+21/06/2018 11:57:09 AutomationLog : Performing Click action on LOCATION_MUMBAI
+21/06/2018 11:57:12 AutomationLog : PASS
+21/06/2018 11:57:12 AutomationLog : Performing Click action on SEARCH_BTN
+21/06/2018 11:57:14 AutomationLog : PASS
+21/06/2018 11:57:14 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:57:16 AutomationLog : PASS
+21/06/2018 11:57:16 AutomationLog : Performing Click action on CONFIRMATION_DETAILS_LINK
+21/06/2018 11:57:19 AutomationLog : PASS
+21/06/2018 11:57:19 AutomationLog : Waiting for Page to load.
+21/06/2018 11:57:21 AutomationLog : PASS
+21/06/2018 11:57:21 AutomationLog : Verifing Page URL:
+21/06/2018 11:57:21 AutomationLog : Actual Permalink value is-> history AND Expected is->history
+21/06/2018 11:57:21 AutomationLog : PASS
+21/06/2018 11:57:21 AutomationLog : Verifying CONFIRMATION_HISTORY_TEXT Text on the Page
+21/06/2018 11:57:24 AutomationLog : Actual is-> CONFIRMATION HISTORY AND Expected is->CONFIRMATION HISTORY
+21/06/2018 11:57:24 AutomationLog : PASS
+21/06/2018 11:57:24 AutomationLog : Performing Click action on MY_CONFIRMATION_LINK
+21/06/2018 11:57:27 AutomationLog : PASS
+21/06/2018 11:57:27 AutomationLog : Waiting for Page to load.
+21/06/2018 11:57:29 AutomationLog : PASS
+21/06/2018 11:57:29 AutomationLog : Verifying MY_CONFIRMATION_TEXT Text on the Page
+21/06/2018 11:57:32 AutomationLog : Actual is-> MY CONFIRMATION AND Expected is->MY CONFIRMATION
+21/06/2018 11:57:32 AutomationLog : PASS
+21/06/2018 11:57:32 AutomationLog : Performing Click action on INITIATED_CONFIRMATION_LINK
+21/06/2018 11:57:35 AutomationLog : PASS
+21/06/2018 11:57:35 AutomationLog : Verifying INITIATED_CONFIRMATION_TEXT Text on the Page
+21/06/2018 11:57:38 AutomationLog : Actual is-> INITIATED CONFIRMATION DETAILS AND Expected is->INITIATED CONFIRMATION DETAILS
+21/06/2018 11:57:38 AutomationLog : PASS
+21/06/2018 11:57:38 AutomationLog : Performing Click action on DASHBOARD_LINK
+21/06/2018 11:57:40 AutomationLog : PASS
+21/06/2018 11:57:40 AutomationLog : Performing Click action on COMP_OFF_EXCEPTION_LINK
+21/06/2018 11:57:43 AutomationLog : PASS
+21/06/2018 11:57:43 AutomationLog : Entering: "4655" text in SEARCH_BY_EMP_CODE_TEXTBOX Field
+21/06/2018 11:57:43 AutomationLog : PASS
+21/06/2018 11:57:43 AutomationLog : Performing Click action on SEARCH_LINK
+21/06/2018 11:57:46 AutomationLog : PASS
+21/06/2018 11:57:46 AutomationLog : Verifying ACT_EMP_LIST_EMP_CODE Text on the Page
+21/06/2018 11:57:49 AutomationLog : Actual is-> 4655 AND Expected is->4655
+21/06/2018 11:57:49 AutomationLog : PASS
+21/06/2018 11:57:49 AutomationLog : Closing the Browser
+21/06/2018 11:57:51 AutomationLog : PASS
+21/06/2018 11:57:51 AutomationLog : TestCase is Ending
+21/06/2018 11:57:51 AutomationLog : TEST SCRIPT:=> VWR_11_Verify_HR_Maintenance_Functionality Has PASSED************
+21/06/2018 11:57:51 AutomationLog : PASS

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [P1]">
+  <parameter name="Suite-Name" value="V2 Refresh_QA_Build_1.8--VWR_TestCases_P1"/>
+  <test name="VWR_01_Verify_Apply_Leave_Functionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_Apply_Leave_Functionality" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality -->
+    </classes>
+  </test> <!-- VWR_01_Verify_Apply_Leave_Functionality(failed) -->
+  <test name="VWR_02_Verify_Apply_Maternity_Leave_Functionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality">
+        <methods>
+          <include name="verify_Apply_Maternity_Leave_Functionality" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality -->
+    </classes>
+  </test> <!-- VWR_02_Verify_Apply_Maternity_Leave_Functionality(failed) -->
+  <test name="VWR_03_Verify_Update_Edit_Delete_Leave_Functionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_03_Verify_Update_Edit_Delete_Leave_Functionality">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verify_Update_Edit_Delete_Leave_Functionality" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_03_Verify_Update_Edit_Delete_Leave_Functionality -->
+    </classes>
+  </test> <!-- VWR_03_Verify_Update_Edit_Delete_Leave_Functionality(failed) -->
+  <test name="VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown">
+        <methods>
+          <include name="verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown -->
+    </classes>
+  </test> <!-- VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown(failed) -->
+  <test name="VWR_05_Verify_Helpdesk_Functionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_05_Verify_Helpdesk_Functionality">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_Helpdesk_Functionality" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_05_Verify_Helpdesk_Functionality -->
+    </classes>
+  </test> <!-- VWR_05_Verify_Helpdesk_Functionality(failed) -->
+  <test name="VWR_06_Verify_Employees_Personal_Information(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information">
+        <methods>
+          <include name="verify_Employees_Personal_Information" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information -->
+    </classes>
+  </test> <!-- VWR_06_Verify_Employees_Personal_Information(failed) -->
+  <test name="VWR_08_Verify_Dashboard_Functionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_Dashboard_Functionality" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality -->
+    </classes>
+  </test> <!-- VWR_08_Verify_Dashboard_Functionality(failed) -->
+  <test name="VWR_09_Verify_Expense_Reimbursement_Functionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_09_Verify_Expense_Reimbursement_Functionality">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verify_Expense_Reimbursement_Functionality" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_09_Verify_Expense_Reimbursement_Functionality -->
+    </classes>
+  </test> <!-- VWR_09_Verify_Expense_Reimbursement_Functionality(failed) -->
+  <test name="VWR_10_Verify_Reports_Functionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_10_Verify_Reports_Functionality">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verify_Reports_Functionality" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_10_Verify_Reports_Functionality -->
+    </classes>
+  </test> <!-- VWR_10_Verify_Reports_Functionality(failed) -->
+  <test name="VWR_11_Verify_HR_Maintenance_Functionality(failed)">
+    <classes>
+      <class name="in.v2solutions.hybrid.testcases.VWR_11_Verify_HR_Maintenance_Functionality">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verify_HR_Maintenance_Functionality" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_11_Verify_HR_Maintenance_Functionality -->
+    </classes>
+  </test> <!-- VWR_11_Verify_HR_Maintenance_Functionality(failed) -->
+</suite> <!-- Failed suite [P1] -->

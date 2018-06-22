@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE project []>
+<project name="V2AutoWR" default="usage" basedir=".">  
+
+<!-- ========== Initialize Properties =================================== -->
+    <property environment="env"/>    
+   	<property name="ws.home" value="${basedir}"/>
+	<property name="ws.jars" value="${ws.home}/sysfiles/jars"/>
+    <property name="test.dest" value="${ws.home}/build"/>
+    <property name="test.src" value="${ws.home}/src"/>
+	<property name="test.temp" value="${ws.home}/temp"/>
+	<property name="test.output" value="${ws.home}/temp/test-output"/>
+	
+    
+	<target name="setClassPath" unless="test.classpath">
+        <path id="classpath_jars">
+			<fileset dir="${ws.jars}" includes="selenium-server-standalone-3.12.0.jar"/>
+            <fileset dir="${ws.jars}" includes="*.jar"/>
+        </path>
+        <pathconvert pathsep=":" 
+            property="test.classpath" 
+            refid="classpath_jars"/>
+    </target>
+
+    <target name="init" depends="setClassPath">
+        <tstamp>
+            <format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+        </tstamp>
+        <condition property="ANT" 
+            value="${env.ANT_HOME}/bin/ant.bat" 
+            else="${env.ANT_HOME}/bin/ant">
+                    <os family="windows" />
+        </condition>
+        <taskdef name="testng" classpath="${test.classpath}"
+               classname="org.testng.TestNGAntTask" />
+    </target>
+  
+    <!-- =========================All==============================-->
+    <target name="all">
+    </target>
+	
+	
+	<target name="ReplacementCHROME" >
+					<echo message="INFO:=> Replacing Old Config with CHROME configuration ..."/>
+					<java classname="in.v2solutions.hybrid.util.ReplacementCHROME" classpath="${test.dest}" classpathref="test.c" />
+		    </target>
+			
+	<target name="ReplacementFF" >
+					<echo message="INFO:=> Replacing Old Config with FireFox configuration ..."/>
+					<java classname="in.v2solutions.hybrid.util.ReplacementFF" classpath="${test.dest}" classpathref="test.c" />
+		    </target>
+	
+	<target name="ReplacementEDGE" >
+					<echo message="INFO:=> Replacing Old Config with Edge configuration ..."/>
+					<java classname="in.v2solutions.hybrid.util.ReplacementEDGE" classpath="${test.dest}" classpathref="test.c" />
+		    </target>
+	
+	<target name="ReplacementNexus6P" >
+					<echo message="INFO:=> Replacing Old Config with Nexus6P configuration ..."/>
+					<java classname="in.v2solutions.hybrid.util.ReplacementNexus6P" classpath="${test.dest}" classpathref="test.c" />
+		    </target>
+
+	<target name="ReplacementiPadMini" >
+					<echo message="INFO:=> Replacing Old Config with iPadMini configuration ..."/>
+					<java classname="in.v2solutions.hybrid.util.ReplacementiPadMini" classpath="${test.dest}" classpathref="test.c" />
+		    </target>
+	
+
+	
+	<!-- ===================deleteoldreportsandlogs======================-->
+	<target name="deleteoldreportsandlogs" >
+				<echo message="INFO:=> Deleting Old Reprots and Logs..."/>
+				<java classname="in.v2solutions.hybrid.util.DeleteReportsAndLogs" classpath="${test.dest}" classpathref="test.c" />
+	    </target>
+	 	
+	<!-- ===================createmasterxlsx======================-->
+	<target name="createmasterxlsx" >
+				<echo message="INFO:=> Preparing TestSuite..."/>
+				<java classname="in.v2solutions.hybrid.util.CreateMasterxls" classpath="${test.dest}" classpathref="test.c" />
+	    </target>
+		
+	<!-- ===================createtestngxml======================-->
+	<target name="createtestngxml" >
+				<echo message="INFO:=> Creating TestNG XML File..."/>
+				<java classname="in.v2solutions.hybrid.util.CreateTestNGXml" classpath="${test.dest}" classpathref="test.c" />
+	    </target>
+	    
+	    <!-- ===================createtestcases======================-->
+		<target name="createtestcases" >
+					<echo message="INFO:=> Creating TestScript Files..."/>
+			       <java classname="in.v2solutions.hybrid.util.CreateTestCases" classpath="${test.dest}" classpathref="test.c" />
+		    </target>
+	
+	<!-- =========================Clean============================-->
+    <target name="clean">
+		<echo message="INFO:=> Deleting Older Build Files..."/>
+        <delete dir="${test.dest}"/>
+    </target>
+
+	<!-- ========================Compile===========================-->
+	    <target name="compile" depends="init, clean" > 
+			<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${test.dest}" includes="**/*"/>
+			</delete>
+			<echo message="INFO:=> Compiling Code And Making Directories..."/>
+			<mkdir dir="${test.dest}"/>
+	        <javac 
+	            debug="true"  	
+	            destdir="${test.dest}" 
+	            srcdir="${test.src}" 
+	            target="1.8" 
+	            classpath="${test.classpath}"
+	        	includeantruntime="false"
+	        >
+	        </javac>
+	    	 <copy todir="${test.dest}">
+	    	            <fileset dir="${test.src}" excludes="**/*.java"/>
+	    	  </copy>
+	      </target>
+
+	<!-- =========================Build============================-->
+    <target name="build" depends="init">
+	<echo message="INFO:=> Creating Build..."/>
+    </target>
+
+
+	<!-- ==========================Run============================-->
+    <target name="run" depends="compile">
+        <testng classpath="${test.classpath}:${test.dest}" suitename="suite1" outputdir="${test.output}">	
+            <xmlfileset dir="${ws.home}" includes="testng.xml"/>
+        </testng>
+    </target>
+
+    <target name="usage">
+        <echo>
+        	INFO:=> Ant run will execute the test
+        </echo>
+    </target>
+	
+
+	<path id="test.c">
+			<fileset dir="${ws.jars}" includes="selenium-server-standalone-3.12.0.jar"/>
+	        <fileset dir="${ws.jars}" includes="*.jar"/>
+	</path>
+	
+	<!-- ======================MakeXsltReports========================-->
+	  <target name="makexsltreports">
+			<echo message="INFO:=> Creating Xslt Reports..."/>
+	        <mkdir dir="${test.temp}/XSLT_Reports/output"/>
+
+	        <xslt in="${test.output}/testng-results.xml" style="src/xslt/testng-results.xsl"
+	              out="${test.temp}/XSLT_Reports/output/index.html" classpathref="test.c" processor="SaxonLiaison">
+	            <param name="testNgXslt.outputDir" expression="${test.temp}/XSLT_Reports/output/"/>
+	            <param name="testNgXslt.showRuntimeTotals" expression="true"/>
+	        </xslt>
+	    </target>
+	
+	<!-- =====================CopyReportsAndZip=======================-->
+	<target name="copyreportsandzip" >
+			<echo message="INFO:=> Copying Reports and Zipping it..."/>
+			<java classname="in.v2solutions.hybrid.util.CopyReportsAndZip" classpath="${test.dest}" classpathref="test.c" />
+    </target>
+		
+	<!-- =======================EmailReports==========================-->
+	<target name="emailreports" >
+			<echo message="INFO:=> Emailing Reports..."/>
+			<java classname="in.v2solutions.hybrid.util.EmailReports" classpath="${test.dest}" classpathref="test.c" />
+    </target>
+	 
+	<!-- =====================CreateDashboard=========================-->
+	<target name="createdashboard" >
+			<echo message="INFO:=> Preparing Dashboard View..."/>
+			<java classname="in.v2solutions.hybrid.util.CreateDashboard" classpath="${test.dest}" classpathref="test.c" />
+    </target>
+</project>

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'century-gothic';
+  src: url('./../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),  url('./../fonts/CenturyGothic.woff') format('woff'), url('./../fonts/CenturyGothic.ttf')  format('truetype'), url('./../fonts/CenturyGothic.svg#Helvetica') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('./../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),  url('./../fonts/Lato-Regular.woff') format('woff'), url('./../fonts/Lato-Regular.ttf')  format('truetype'), url('./../fonts/Lato-Regular.svg#Helvetica') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.clearBoth{
+	clear: both;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #f5f5f5;
+}
+header{
+	padding:30px;
+	border-bottom: 2px solid #f15a24;
+	background-color: #fff;
+}
+header .title{
+	font-size: 30px;
+	float: left;
+	font-family: century-gothic;
+}
+header .logo{
+	float: right;
+}
+.commonContainer {
+	float: left;
+	width: 48%;
+	position: relative;
+}
+.commonContainer p {
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: 40%;
+	width: 100px;
+	transform: translate-x(50%);
+	color: #000;
+	z-index: 99;
+	white-space: nowrap;
+	font-family: lato;
+}
+.description {
+	margin-top: 0;
+    padding-top: 1em;
+    padding-left: 30px;
+}
+.description li{
+	font-family: century-gothic;
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 18px;
+}
+.reportContainer{
+	padding: 30px;
+}
+.executionTable{
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 12px;
+	width: 100%;
+	font-family: lato;
+}
+.executionTable thead{
+	background-color: #cbcbcb;
+}
+.executionTable,.executionTable th,.executionTable td{
+	border: 1px solid #c2c2c2;
+	padding:10px;
+}
+.executionTable tbody{
+	background-color:#fff; 
+}
+.executionResult{
+	font-weight: bold;
+	color: #2e80af;
+	text-decoration:none;
+}
+.footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	border-bottom: 5px solid #2e80af;
+}

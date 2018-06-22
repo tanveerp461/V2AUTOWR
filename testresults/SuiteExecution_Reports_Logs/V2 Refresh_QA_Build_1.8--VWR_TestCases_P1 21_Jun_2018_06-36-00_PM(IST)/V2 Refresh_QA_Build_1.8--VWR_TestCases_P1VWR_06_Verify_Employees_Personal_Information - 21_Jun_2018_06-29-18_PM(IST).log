@@ -1,0 +1,331 @@
+21/06/2018 18:29:19 AutomationLog INFO=> Initializing keywords
+21/06/2018 18:29:19 AutomationLog : =========================================================
+21/06/2018 18:29:19 AutomationLog : Executing---VWR_06_Verify_Employees_Personal_Information Test Case
+21/06/2018 18:29:19 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 18:29:19 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 18:29:26 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 18:29:49 AutomationLog : PASS
+21/06/2018 18:29:49 AutomationLog : Waiting for Page to load.
+21/06/2018 18:29:51 AutomationLog : PASS
+21/06/2018 18:29:51 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 18:29:52 AutomationLog : PASS
+21/06/2018 18:29:52 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 18:29:54 AutomationLog : PASS
+21/06/2018 18:29:54 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 18:29:55 AutomationLog : PASS
+21/06/2018 18:29:55 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 18:29:58 AutomationLog : PASS
+21/06/2018 18:29:58 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 18:30:17 AutomationLog : PASS
+21/06/2018 18:30:17 AutomationLog : Verifying Page Title
+21/06/2018 18:30:17 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 18:30:17 AutomationLog : PASS
+21/06/2018 18:30:17 AutomationLog : Waiting for Page to load.
+21/06/2018 18:30:19 AutomationLog : PASS
+21/06/2018 18:30:19 AutomationLog : Entering: "4168" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 18:30:19 AutomationLog : PASS
+21/06/2018 18:30:19 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 18:30:22 AutomationLog : PASS
+21/06/2018 18:30:22 AutomationLog : Waiting for Page to load.
+21/06/2018 18:30:37 AutomationLog : PASS
+21/06/2018 18:30:37 AutomationLog : Performing Click action on PERSONAL_LINK
+21/06/2018 18:30:42 AutomationLog : PASS
+21/06/2018 18:30:42 AutomationLog : Performing Click action on PERSONAL_DETAILS_EDIT_LINK
+21/06/2018 18:30:46 AutomationLog : PASS
+21/06/2018 18:30:46 AutomationLog : Clearing Text Field
+21/06/2018 18:30:47 AutomationLog : PASS
+21/06/2018 18:30:47 AutomationLog : Entering: "FirstNameRenamed" text in FIRSTNAME_EDIT Field
+21/06/2018 18:30:48 AutomationLog : PASS
+21/06/2018 18:30:48 AutomationLog : Clearing Text Field
+21/06/2018 18:30:49 AutomationLog : PASS
+21/06/2018 18:30:49 AutomationLog : Entering: "MiddleNameRenamed" text in MIDDLENAME_EDIT Field
+21/06/2018 18:30:50 AutomationLog : PASS
+21/06/2018 18:30:50 AutomationLog : Performing Click action on SAVE_PERSONAL_DETAILS
+21/06/2018 18:30:52 AutomationLog : PASS
+21/06/2018 18:30:52 AutomationLog : Verifying PERSONAL_DETAILS_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 18:30:56 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 18:30:56 AutomationLog : PASS
+21/06/2018 18:30:56 AutomationLog : Performing Click action on CURRENT_ADDRESS_EDIT_LINK
+21/06/2018 18:30:58 AutomationLog : PASS
+21/06/2018 18:30:58 AutomationLog : Clearing Text Field
+21/06/2018 18:30:59 AutomationLog : PASS
+21/06/2018 18:30:59 AutomationLog : Entering: "Mumbai" text in CITY_EDIT Field
+21/06/2018 18:31:00 AutomationLog : PASS
+21/06/2018 18:31:00 AutomationLog : Performing Click action on SAVE_CURRENT_ADDRESS_DETAILS
+21/06/2018 18:31:02 AutomationLog : PASS
+21/06/2018 18:31:02 AutomationLog : Verifying CURRENT_ADDRESS_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 18:31:06 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 18:31:06 AutomationLog : PASS
+21/06/2018 18:31:06 AutomationLog : Scrolling The Page to END Using END key
+21/06/2018 18:31:06 AutomationLog : PASS
+21/06/2018 18:31:06 AutomationLog : Performing Click action on PERMANENT_ADDRESS_EDIT_LINK
+21/06/2018 18:31:08 AutomationLog : PASS
+21/06/2018 18:31:08 AutomationLog : Clearing Text Field
+21/06/2018 18:31:09 AutomationLog : PASS
+21/06/2018 18:31:09 AutomationLog : Entering: "Goaa" text in PERMANENT_ADDRESS_CITY_EDIT Field
+21/06/2018 18:31:10 AutomationLog : PASS
+21/06/2018 18:31:10 AutomationLog : Performing Click action on SAVE_PERMANENT_ADDRESS_DETAILS
+21/06/2018 18:31:12 AutomationLog : PASS
+21/06/2018 18:31:12 AutomationLog : Verifying PERMANENT_ADDRESS_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 18:31:16 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 18:31:16 AutomationLog : PASS
+21/06/2018 18:31:16 AutomationLog : Scrolling The Page UP 
+21/06/2018 18:31:16 AutomationLog : PASS
+21/06/2018 18:31:16 AutomationLog : Performing Click action on EDUCATION_DETAILS_EDIT_LINK
+21/06/2018 18:31:18 AutomationLog : PASS
+21/06/2018 18:31:18 AutomationLog : Clearing Text Field
+21/06/2018 18:31:19 AutomationLog : PASS
+21/06/2018 18:31:19 AutomationLog : Entering: "2004" text in YEAR_EDIT Field
+21/06/2018 18:31:20 AutomationLog : PASS
+21/06/2018 18:31:20 AutomationLog : Performing Click action on SAVE_EDUCATION_DETAILS
+21/06/2018 18:31:22 AutomationLog : PASS
+21/06/2018 18:31:22 AutomationLog : Verifying EDUCATION_DETAILS_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 18:31:25 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 18:31:25 AutomationLog : PASS
+21/06/2018 18:31:25 AutomationLog : Performing Click action on PASSPORT_DETAILS_EDIT_LINK
+21/06/2018 18:31:28 AutomationLog : PASS
+21/06/2018 18:31:28 AutomationLog : Clearing Text Field
+21/06/2018 18:31:29 AutomationLog : PASS
+21/06/2018 18:31:29 AutomationLog : Entering: "TEST24454654" text in PASSPORT_NUMBER_EDIT Field
+21/06/2018 18:31:30 AutomationLog : PASS
+21/06/2018 18:31:30 AutomationLog : Performing Click action on SAVE_PASSPORT_DETAILS
+21/06/2018 18:31:32 AutomationLog : PASS
+21/06/2018 18:31:32 AutomationLog : Performing Click action on EMERGENCY_CONTACT_EDIT
+21/06/2018 18:31:35 AutomationLog : PASS
+21/06/2018 18:31:35 AutomationLog : Clearing Text Field
+21/06/2018 18:31:36 AutomationLog : PASS
+21/06/2018 18:31:36 AutomationLog : Entering: "jsdessaitest@gmail.com" text in EMERGENCY_CONTACT_EMAIL_EDIT Field
+21/06/2018 18:31:37 AutomationLog : PASS
+21/06/2018 18:31:37 AutomationLog : Performing Click action on SAVE_EMERGENCY_CONTACT
+21/06/2018 18:31:39 AutomationLog : PASS
+21/06/2018 18:31:39 AutomationLog : Verifying EMERGENCY_CONTACT_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 18:31:43 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 18:31:43 AutomationLog : PASS
+21/06/2018 18:31:43 AutomationLog : Performing Click action on CERTIFICATION_EDIT_LINK
+21/06/2018 18:31:45 AutomationLog : PASS
+21/06/2018 18:31:45 AutomationLog : Clearing Text Field
+21/06/2018 18:31:46 AutomationLog : PASS
+21/06/2018 18:31:46 AutomationLog : Entering: "Test002" text in CERTIFICATE_NUMBER_EDIT Field
+21/06/2018 18:31:47 AutomationLog : PASS
+21/06/2018 18:31:47 AutomationLog : Performing Click action on SAVE_CERTIFICATION_DETAILS
+21/06/2018 18:31:49 AutomationLog : PASS
+21/06/2018 18:31:49 AutomationLog : Verifying CERTIFICATION_DETAILS_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 18:31:52 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 18:31:52 AutomationLog : PASS
+21/06/2018 18:31:52 AutomationLog : Performing Click action on DEPENDENT_DETAILS_LINK
+21/06/2018 18:31:55 AutomationLog : PASS
+21/06/2018 18:31:55 AutomationLog : Clearing Text Field
+21/06/2018 18:31:56 AutomationLog : PASS
+21/06/2018 18:31:56 AutomationLog : Entering: "Jayesh DesaiA" text in DEPENDENT_NAME_EDIT_LINK Field
+21/06/2018 18:31:57 AutomationLog : PASS
+21/06/2018 18:31:57 AutomationLog : Performing Click action on SAVE_DEPENDENT_DETAILS
+21/06/2018 18:31:59 AutomationLog : PASS
+21/06/2018 18:31:59 AutomationLog : Scrolling The Page UP 
+21/06/2018 18:31:59 AutomationLog : PASS
+21/06/2018 18:31:59 AutomationLog : Performing Click action on MEDICAL_HISTORY_LINK
+21/06/2018 18:32:02 AutomationLog : PASS
+21/06/2018 18:32:02 AutomationLog : Clearing Text Field
+21/06/2018 18:32:03 AutomationLog : PASS
+21/06/2018 18:32:03 AutomationLog : Entering: "TEST123" text in MEDICAL_DESCRIPTION_EDIT Field
+21/06/2018 18:32:03 AutomationLog : PASS
+21/06/2018 18:32:03 AutomationLog : Performing Click action on SAVE_MEDICAL_HISTORY_DETAILS
+21/06/2018 18:32:06 AutomationLog : PASS
+21/06/2018 18:32:06 AutomationLog : Verifying MEDICAL_HISTORY_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 18:32:09 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 18:32:09 AutomationLog : PASS
+21/06/2018 18:32:09 AutomationLog : Entering: "3486" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 18:32:10 AutomationLog : PASS
+21/06/2018 18:32:10 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 18:32:12 AutomationLog : PASS
+21/06/2018 18:32:12 AutomationLog : Waiting for Page to load.
+21/06/2018 18:32:27 AutomationLog : PASS
+21/06/2018 18:32:27 AutomationLog : Performing Click action on APPROVALS_LINK
+21/06/2018 18:32:35 AutomationLog : PASS
+21/06/2018 18:32:35 AutomationLog : Performing Click action on PROFILE_LINK
+21/06/2018 18:32:37 AutomationLog : PASS
+21/06/2018 18:32:37 AutomationLog : Performing Click action on REVIEW_PROFILE_LINK
+21/06/2018 18:32:40 AutomationLog : PASS
+21/06/2018 18:32:40 AutomationLog : Performing Click action on ACTION_LINK
+21/06/2018 18:32:42 AutomationLog : PASS
+21/06/2018 18:32:42 AutomationLog : Performing Click action on ACTION_REJECTED
+21/06/2018 18:32:45 AutomationLog : PASS
+21/06/2018 18:32:45 AutomationLog : Entering: "Test Automation" text in REJECTED_COMMENT Field
+21/06/2018 18:32:45 AutomationLog : PASS
+21/06/2018 18:32:45 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:32:47 AutomationLog : PASS
+21/06/2018 18:32:47 AutomationLog : Performing Click action on SAVE_REJECTION_BTN
+21/06/2018 18:32:49 AutomationLog : PASS
+21/06/2018 18:32:49 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:32:50 AutomationLog : PASS
+21/06/2018 18:32:50 AutomationLog : Performing Click action on REVIEW_PROFILE_LINK
+21/06/2018 18:32:53 AutomationLog : PASS
+21/06/2018 18:32:53 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:32:54 AutomationLog : PASS
+21/06/2018 18:32:54 AutomationLog : Performing Click action on ACTION_LINK
+21/06/2018 18:32:56 AutomationLog : PASS
+21/06/2018 18:32:56 AutomationLog : Performing Click action on ACTION_REJECTED
+21/06/2018 18:32:59 AutomationLog : PASS
+21/06/2018 18:32:59 AutomationLog : Entering: "Test Automation" text in REJECTED_COMMENT Field
+21/06/2018 18:32:59 AutomationLog : PASS
+21/06/2018 18:32:59 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:01 AutomationLog : PASS
+21/06/2018 18:33:01 AutomationLog : Performing Click action on SAVE_REJECTION_BTN
+21/06/2018 18:33:03 AutomationLog : PASS
+21/06/2018 18:33:03 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:04 AutomationLog : PASS
+21/06/2018 18:33:04 AutomationLog : Performing Click action on REVIEW_PROFILE_LINK
+21/06/2018 18:33:07 AutomationLog : PASS
+21/06/2018 18:33:07 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:08 AutomationLog : PASS
+21/06/2018 18:33:08 AutomationLog : Performing Click action on ACTION_LINK
+21/06/2018 18:33:11 AutomationLog : PASS
+21/06/2018 18:33:11 AutomationLog : Performing Click action on ACTION_REJECTED
+21/06/2018 18:33:13 AutomationLog : PASS
+21/06/2018 18:33:13 AutomationLog : Entering: "Test Automation" text in REJECTED_COMMENT Field
+21/06/2018 18:33:14 AutomationLog : PASS
+21/06/2018 18:33:14 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:15 AutomationLog : PASS
+21/06/2018 18:33:15 AutomationLog : Performing Click action on SAVE_REJECTION_BTN
+21/06/2018 18:33:17 AutomationLog : PASS
+21/06/2018 18:33:17 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:19 AutomationLog : PASS
+21/06/2018 18:33:19 AutomationLog : Performing Click action on REVIEW_PROFILE_LINK
+21/06/2018 18:33:21 AutomationLog : PASS
+21/06/2018 18:33:21 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:22 AutomationLog : PASS
+21/06/2018 18:33:22 AutomationLog : Performing Click action on ACTION_LINK
+21/06/2018 18:33:25 AutomationLog : PASS
+21/06/2018 18:33:25 AutomationLog : Performing Click action on ACTION_REJECTED
+21/06/2018 18:33:27 AutomationLog : PASS
+21/06/2018 18:33:27 AutomationLog : Entering: "Test Automation" text in REJECTED_COMMENT Field
+21/06/2018 18:33:28 AutomationLog : PASS
+21/06/2018 18:33:28 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:29 AutomationLog : PASS
+21/06/2018 18:33:29 AutomationLog : Performing Click action on SAVE_REJECTION_BTN
+21/06/2018 18:33:32 AutomationLog : PASS
+21/06/2018 18:33:32 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:33 AutomationLog : PASS
+21/06/2018 18:33:33 AutomationLog : Performing Click action on REVIEW_PROFILE_LINK
+21/06/2018 18:33:35 AutomationLog : PASS
+21/06/2018 18:33:35 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:37 AutomationLog : PASS
+21/06/2018 18:33:37 AutomationLog : Performing Click action on ACTION_LINK
+21/06/2018 18:33:39 AutomationLog : PASS
+21/06/2018 18:33:39 AutomationLog : Performing Click action on ACTION_REJECTED
+21/06/2018 18:33:41 AutomationLog : PASS
+21/06/2018 18:33:41 AutomationLog : Entering: "Test Automation" text in REJECTED_COMMENT Field
+21/06/2018 18:33:42 AutomationLog : PASS
+21/06/2018 18:33:42 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:43 AutomationLog : PASS
+21/06/2018 18:33:43 AutomationLog : Performing Click action on SAVE_REJECTION_BTN
+21/06/2018 18:33:46 AutomationLog : PASS
+21/06/2018 18:33:46 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:47 AutomationLog : PASS
+21/06/2018 18:33:47 AutomationLog : Performing Click action on REVIEW_PROFILE_LINK
+21/06/2018 18:33:50 AutomationLog : PASS
+21/06/2018 18:33:50 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:51 AutomationLog : PASS
+21/06/2018 18:33:51 AutomationLog : Performing Click action on ACTION_LINK
+21/06/2018 18:33:54 AutomationLog : PASS
+21/06/2018 18:33:54 AutomationLog : Performing Click action on ACTION_REJECTED
+21/06/2018 18:33:56 AutomationLog : PASS
+21/06/2018 18:33:56 AutomationLog : Entering: "Test Automation" text in REJECTED_COMMENT Field
+21/06/2018 18:33:57 AutomationLog : PASS
+21/06/2018 18:33:57 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:33:58 AutomationLog : PASS
+21/06/2018 18:33:58 AutomationLog : Performing Click action on SAVE_REJECTION_BTN
+21/06/2018 18:34:00 AutomationLog : PASS
+21/06/2018 18:34:00 AutomationLog : Closing the Browser
+21/06/2018 18:34:00 AutomationLog : PASS
+21/06/2018 18:34:00 AutomationLog : TestCase is Ending
+21/06/2018 18:34:00 AutomationLog : TEST SCRIPT:=> VWR_06_Verify_Employees_Personal_Information Has PASSED************
+21/06/2018 18:34:00 AutomationLog : PASS
+21/06/2018 18:34:00 AutomationLog : =========================================================
+21/06/2018 18:34:00 AutomationLog : Executing---VWR_07_Verify_Employees_Professional_Information Test Case
+21/06/2018 18:34:00 AutomationLog : Navigating to (https://qa.v2solutions.com:2073/#/my/leaves/new) Site
+21/06/2018 18:34:00 AutomationLog : No Opened Browser Available, Opening New one
+21/06/2018 18:34:03 AutomationLog : Opening: CHROME 67.0.3396.87 Browser
+21/06/2018 18:34:23 AutomationLog : PASS
+21/06/2018 18:34:23 AutomationLog : Waiting for Page to load.
+21/06/2018 18:34:25 AutomationLog : PASS
+21/06/2018 18:34:25 AutomationLog : Entering: "tanveer.patel@v2solutions.com" text in SIGNIN_ID Field
+21/06/2018 18:34:26 AutomationLog : PASS
+21/06/2018 18:34:26 AutomationLog : Performing Click action on NEXT_BTN
+21/06/2018 18:34:28 AutomationLog : PASS
+21/06/2018 18:34:28 AutomationLog : Entering: "Jun2018" text in PASSWORD Field
+21/06/2018 18:34:29 AutomationLog : PASS
+21/06/2018 18:34:29 AutomationLog : Performing Click action on SIGNIN_BTN
+21/06/2018 18:34:32 AutomationLog : PASS
+21/06/2018 18:34:32 AutomationLog : Performing Click action on CONTINUE_BTN
+21/06/2018 18:34:52 AutomationLog : PASS
+21/06/2018 18:34:52 AutomationLog : Verifying Page Title
+21/06/2018 18:34:52 AutomationLog : Actual is-> VW-Refresh AND Expected is->VW-Refresh
+21/06/2018 18:34:52 AutomationLog : PASS
+21/06/2018 18:34:52 AutomationLog : Waiting for Page to load.
+21/06/2018 18:34:54 AutomationLog : PASS
+21/06/2018 18:34:54 AutomationLog : Entering: "4168" text in IMPERSONATE_TEXTBOX Field
+21/06/2018 18:34:54 AutomationLog : PASS
+21/06/2018 18:34:54 AutomationLog : Performing Click action on DO_IT_BTN
+21/06/2018 18:34:56 AutomationLog : PASS
+21/06/2018 18:34:56 AutomationLog : Waiting for Page to load.
+21/06/2018 18:35:11 AutomationLog : PASS
+21/06/2018 18:35:11 AutomationLog : Performing Click action on PROFESSIONAL_LINK
+21/06/2018 18:35:14 AutomationLog : PASS
+21/06/2018 18:35:14 AutomationLog : Performing Click action on ADD_SKILLS_LINK
+21/06/2018 18:35:18 AutomationLog : PASS
+21/06/2018 18:35:18 AutomationLog : Performing Click action on SELECT_SKILL_DROPDOWN
+21/06/2018 18:35:20 AutomationLog : PASS
+21/06/2018 18:35:20 AutomationLog : Performing Click action on AWS_SKILL
+21/06/2018 18:35:23 AutomationLog : PASS
+21/06/2018 18:35:23 AutomationLog : Entering: "1" text in SKILL_RATING Field
+21/06/2018 18:35:23 AutomationLog : PASS
+21/06/2018 18:35:23 AutomationLog : Performing Click action on SAVE_SKILL_BTN
+21/06/2018 18:35:26 AutomationLog : PASS
+21/06/2018 18:35:26 AutomationLog : Scrolling The Page to END Using END key
+21/06/2018 18:35:26 AutomationLog : PASS
+21/06/2018 18:35:26 AutomationLog : Performing Click action on DELETE_SKILL_BTN
+21/06/2018 18:35:28 AutomationLog : PASS
+21/06/2018 18:35:28 AutomationLog : Performing Click action on DELETE_CONFIRM_OK
+21/06/2018 18:35:31 AutomationLog : PASS
+21/06/2018 18:35:31 AutomationLog : Performing Click action on ADD_EXPERIENCE_LINK
+21/06/2018 18:35:33 AutomationLog : PASS
+21/06/2018 18:35:33 AutomationLog : Entering: "Test ABC" text in ORG_NAME Field
+21/06/2018 18:35:34 AutomationLog : PASS
+21/06/2018 18:35:34 AutomationLog : Entering: "Test EFG" text in ORG_LOCATION Field
+21/06/2018 18:35:34 AutomationLog : PASS
+21/06/2018 18:35:34 AutomationLog : Performing Click action on WORKEDFROMCALENDAR_LINK
+21/06/2018 18:35:36 AutomationLog : PASS
+21/06/2018 18:35:36 AutomationLog : Entering: "1" text in WORKEDFROMCALENDAR_TBODY_LINK Field
+21/06/2018 18:35:38 AutomationLog : PASS
+21/06/2018 18:35:38 AutomationLog : Performing Click action on WORKEDFROMCALENDAR_CLOSE_BTN
+21/06/2018 18:35:40 AutomationLog : PASS
+21/06/2018 18:35:40 AutomationLog : Performing Click action on WORKEDTILLCALENDAR_LINK
+21/06/2018 18:35:43 AutomationLog : PASS
+21/06/2018 18:35:43 AutomationLog : Entering: "1" text in WORKEDTILLCALENDAR_TBODY_LINK Field
+21/06/2018 18:35:45 AutomationLog : PASS
+21/06/2018 18:35:45 AutomationLog : Performing Click action on WORKEDTILLCALENDAR_CLOSE_BTN
+21/06/2018 18:35:47 AutomationLog : PASS
+21/06/2018 18:35:47 AutomationLog : Entering: "Test XYZ" text in DESIGNATION Field
+21/06/2018 18:35:48 AutomationLog : PASS
+21/06/2018 18:35:48 AutomationLog : Performing Click action on ADD_EXPERIENCE_SAVE_BTN
+21/06/2018 18:35:50 AutomationLog : PASS
+21/06/2018 18:35:50 AutomationLog : Verifying EXPERIENCE_DETAILS_SAVE_SUCCESSFUL_MSG Text on the Page
+21/06/2018 18:35:53 AutomationLog : Actual is-> Data sent for approval. Cannot update data. AND Expected is->Data sent for approval. Cannot update data.
+21/06/2018 18:35:53 AutomationLog : PASS
+21/06/2018 18:35:53 AutomationLog : Scrolling the page until element visible on the page 
+21/06/2018 18:35:55 AutomationLog : PASS
+21/06/2018 18:35:55 AutomationLog : Performing Click action on ADD_DECLARATION_LINK
+21/06/2018 18:35:57 AutomationLog : PASS
+21/06/2018 18:35:57 AutomationLog : Entering: "TEST" text in NAME_DECLARATION Field
+21/06/2018 18:35:57 AutomationLog : FAIL - Not able to enter TEST in NAME_DECLARATION Fieldunknown error: cannot focus element
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'V2MUMPC0464', ip: '192.168.50.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TANVEE~1.PAT\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 5c47a763b2e8906aca53d068a2d15da8
+21/06/2018 18:35:58 AutomationLog : ACTION failed for UI because of Object Not Found Issue. Please refer VWR_07--Failed_AT-InputText-NAME_DECLARATION-2106_063558_PM(IST).png
+21/06/2018 18:35:58 AutomationLog : TEST SCRIPT:=> VWR_07_Verify_Employees_Professional_Information Has FAILED!!!!!!!!!!!!
+21/06/2018 18:35:58 AutomationLog : Quiting all opened Browsers

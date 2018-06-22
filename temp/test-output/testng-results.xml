@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="10" failed="0" ignored="0" total="11" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="P1" duration-ms="212456" started-at="2018-06-21T13:09:33Z" finished-at="2018-06-21T13:13:06Z">
+    <groups>
+    </groups>
+    <test name="VWR_01_Verify_Apply_Leave_Functionality" duration-ms="42" started-at="2018-06-21T13:09:33Z" finished-at="2018-06-21T13:09:33Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality@1aafa419]" name="beforeTest" is-config="true" duration-ms="14" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_Apply_Leave_Functionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality@1aafa419]" name="verify_Apply_Leave_Functionality" duration-ms="4" started-at="2018-06-21T18:39:33Z" data-provider="getTestData" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality.verify_Apply_Leave_Functionality(VWR_01_Verify_Apply_Leave_Functionality.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Apply_Leave_Functionality -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality@1aafa419]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_01_Verify_Apply_Leave_Functionality -->
+    </test> <!-- VWR_01_Verify_Apply_Leave_Functionality -->
+    <test name="VWR_02_Verify_Apply_Maternity_Leave_Functionality" duration-ms="3" started-at="2018-06-21T13:09:33Z" finished-at="2018-06-21T13:09:33Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality@2d3379b4]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_Apply_Maternity_Leave_Functionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality@2d3379b4]" name="verify_Apply_Maternity_Leave_Functionality" duration-ms="1" started-at="2018-06-21T18:39:33Z" data-provider="getTestData" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality.verify_Apply_Maternity_Leave_Functionality(VWR_02_Verify_Apply_Maternity_Leave_Functionality.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Apply_Maternity_Leave_Functionality -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality@2d3379b4]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_02_Verify_Apply_Maternity_Leave_Functionality -->
+    </test> <!-- VWR_02_Verify_Apply_Maternity_Leave_Functionality -->
+    <test name="VWR_03_Verify_Update_Edit_Delete_Leave_Functionality" duration-ms="5" started-at="2018-06-21T13:09:33Z" finished-at="2018-06-21T13:09:33Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_03_Verify_Update_Edit_Delete_Leave_Functionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_03_Verify_Update_Edit_Delete_Leave_Functionality@2b71e916]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_Update_Edit_Delete_Leave_Functionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_03_Verify_Update_Edit_Delete_Leave_Functionality@2b71e916]" name="verify_Update_Edit_Delete_Leave_Functionality" duration-ms="1" started-at="2018-06-21T18:39:33Z" data-provider="getTestData" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_03_Verify_Update_Edit_Delete_Leave_Functionality.verify_Update_Edit_Delete_Leave_Functionality(VWR_03_Verify_Update_Edit_Delete_Leave_Functionality.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Update_Edit_Delete_Leave_Functionality -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_03_Verify_Update_Edit_Delete_Leave_Functionality@2b71e916]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_03_Verify_Update_Edit_Delete_Leave_Functionality -->
+    </test> <!-- VWR_03_Verify_Update_Edit_Delete_Leave_Functionality -->
+    <test name="VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown" duration-ms="2" started-at="2018-06-21T13:09:33Z" finished-at="2018-06-21T13:09:33Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown">
+        <test-method status="SKIP" signature="verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown@175c2241]" name="verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown" duration-ms="2" started-at="2018-06-21T18:39:33Z" data-provider="getTestData" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown.verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown(VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown@175c2241]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown@175c2241]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown -->
+    </test> <!-- VWR_04_Verify_Male_Emp_Should_not_see_Maternity_Leave_In_Dropdown -->
+    <test name="VWR_05_Verify_Helpdesk_Functionality" duration-ms="2" started-at="2018-06-21T13:09:33Z" finished-at="2018-06-21T13:09:33Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_05_Verify_Helpdesk_Functionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_05_Verify_Helpdesk_Functionality@557caf28]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_Helpdesk_Functionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_05_Verify_Helpdesk_Functionality@557caf28]" name="verify_Helpdesk_Functionality" duration-ms="1" started-at="2018-06-21T18:39:33Z" data-provider="getTestData" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_05_Verify_Helpdesk_Functionality.verify_Helpdesk_Functionality(VWR_05_Verify_Helpdesk_Functionality.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Helpdesk_Functionality -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_05_Verify_Helpdesk_Functionality@557caf28]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_05_Verify_Helpdesk_Functionality -->
+    </test> <!-- VWR_05_Verify_Helpdesk_Functionality -->
+    <test name="VWR_06_Verify_Employees_Personal_Information" duration-ms="2" started-at="2018-06-21T13:09:33Z" finished-at="2018-06-21T13:09:33Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information@22555ebf]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_Employees_Personal_Information(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information@22555ebf]" name="verify_Employees_Personal_Information" duration-ms="0" started-at="2018-06-21T18:39:33Z" data-provider="getTestData" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information.verify_Employees_Personal_Information(VWR_06_Verify_Employees_Personal_Information.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Employees_Personal_Information -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information@22555ebf]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_06_Verify_Employees_Personal_Information -->
+    </test> <!-- VWR_06_Verify_Employees_Personal_Information -->
+    <test name="VWR_07_Verify_Employees_Professional_Information" duration-ms="212284" started-at="2018-06-21T13:09:33Z" finished-at="2018-06-21T13:13:06Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_07_Verify_Employees_Professional_Information">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_07_Verify_Employees_Professional_Information@43bc63a3]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:39:33Z" finished-at="2018-06-21T18:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verify_Employees_Professional_Information(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_07_Verify_Employees_Professional_Information@43bc63a3]" name="verify_Employees_Professional_Information" duration-ms="212282" started-at="2018-06-21T18:39:33Z" data-provider="getTestData" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Employees_Professional_Information -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_07_Verify_Employees_Professional_Information@43bc63a3]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_07_Verify_Employees_Professional_Information -->
+    </test> <!-- VWR_07_Verify_Employees_Professional_Information -->
+    <test name="VWR_08_Verify_Dashboard_Functionality" duration-ms="3" started-at="2018-06-21T13:13:06Z" finished-at="2018-06-21T13:13:06Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality@7586beff]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality@7586beff]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="verify_Dashboard_Functionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality@7586beff]" name="verify_Dashboard_Functionality" duration-ms="0" started-at="2018-06-21T18:43:06Z" data-provider="getTestData" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality.verify_Dashboard_Functionality(VWR_08_Verify_Dashboard_Functionality.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Dashboard_Functionality -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_08_Verify_Dashboard_Functionality -->
+    </test> <!-- VWR_08_Verify_Dashboard_Functionality -->
+    <test name="VWR_09_Verify_Expense_Reimbursement_Functionality" duration-ms="2" started-at="2018-06-21T13:13:06Z" finished-at="2018-06-21T13:13:06Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_09_Verify_Expense_Reimbursement_Functionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_09_Verify_Expense_Reimbursement_Functionality@7e6f74c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_Expense_Reimbursement_Functionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_09_Verify_Expense_Reimbursement_Functionality@7e6f74c]" name="verify_Expense_Reimbursement_Functionality" duration-ms="1" started-at="2018-06-21T18:43:06Z" data-provider="getTestData" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_09_Verify_Expense_Reimbursement_Functionality.verify_Expense_Reimbursement_Functionality(VWR_09_Verify_Expense_Reimbursement_Functionality.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Expense_Reimbursement_Functionality -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_09_Verify_Expense_Reimbursement_Functionality@7e6f74c]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_09_Verify_Expense_Reimbursement_Functionality -->
+    </test> <!-- VWR_09_Verify_Expense_Reimbursement_Functionality -->
+    <test name="VWR_10_Verify_Reports_Functionality" duration-ms="3" started-at="2018-06-21T13:13:06Z" finished-at="2018-06-21T13:13:06Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_10_Verify_Reports_Functionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_10_Verify_Reports_Functionality@5aa9e4eb]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_Reports_Functionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_10_Verify_Reports_Functionality@5aa9e4eb]" name="verify_Reports_Functionality" duration-ms="0" started-at="2018-06-21T18:43:06Z" data-provider="getTestData" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_10_Verify_Reports_Functionality.verify_Reports_Functionality(VWR_10_Verify_Reports_Functionality.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Reports_Functionality -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_10_Verify_Reports_Functionality@5aa9e4eb]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_10_Verify_Reports_Functionality -->
+    </test> <!-- VWR_10_Verify_Reports_Functionality -->
+    <test name="VWR_11_Verify_HR_Maintenance_Functionality" duration-ms="2" started-at="2018-06-21T13:13:06Z" finished-at="2018-06-21T13:13:06Z">
+      <class name="in.v2solutions.hybrid.testcases.VWR_11_Verify_HR_Maintenance_Functionality">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_11_Verify_HR_Maintenance_Functionality@229f66ed]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2 Refresh_QA_Build_1.8--VWR_TestCases_P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="verify_HR_Maintenance_Functionality(java.util.Hashtable)[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_11_Verify_HR_Maintenance_Functionality@229f66ed]" name="verify_HR_Maintenance_Functionality" duration-ms="1" started-at="2018-06-21T18:43:06Z" data-provider="getTestData" finished-at="2018-06-21T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as runmode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as runmode is NO
+	at in.v2solutions.hybrid.testcases.VWR_11_Verify_HR_Maintenance_Functionality.verify_HR_Maintenance_Functionality(VWR_11_Verify_HR_Maintenance_Functionality.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.TestNG.privateMain(TestNG.java:1442)
+	at org.testng.TestNG.main(TestNG.java:1411)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HR_Maintenance_Functionality -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:in.v2solutions.hybrid.testcases.VWR_11_Verify_HR_Maintenance_Functionality@229f66ed]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-21T18:43:06Z" finished-at="2018-06-21T18:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- in.v2solutions.hybrid.testcases.VWR_11_Verify_HR_Maintenance_Functionality -->
+    </test> <!-- VWR_11_Verify_HR_Maintenance_Functionality -->
+  </suite> <!-- P1 -->
+</testng-results>

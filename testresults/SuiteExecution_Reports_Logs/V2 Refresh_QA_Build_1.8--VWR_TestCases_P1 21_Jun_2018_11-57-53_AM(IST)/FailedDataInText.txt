@@ -1,0 +1,4 @@
+VWR_06__PERSONAL_DETAILS_EDIT_LINK__PERSONAL_DETAILS_EDIT_LINK Did not appeared after waiting 50.0 seconds. Please check the application status or modify Object Repository, Wait time.____VWR_06--Failed_AT-Click-PERSONAL_DETAILS_EDIT_LINK-2106_114513_AM(IST).png
+VWR_07__ADD_DECLARATION_LINK__ADD_DECLARATION_LINK Did not appeared after waiting 50.0 seconds. Please check the application status or modify Object Repository, Wait time.____VWR_07--Failed_AT-Click-ADD_DECLARATION_LINK-2106_114709_AM(IST).png
+VWR_08_Verify_Dashboard_Functionality____ Not able to read text. Please check and modify Object Repository or  wait time____VWR_08--Failed_AT-VerifyPermalinkContent--2106_114913_AM(IST).png
+VWR_08__MY_TICKETS__MY_TICKETS Did not appeared after waiting 50.0 seconds. Please check the application status or modify Object Repository, Wait time.____VWR_08--Failed_AT-Click-MY_TICKETS-2106_115005_AM(IST).png
